@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ed Palmer</title>
-    <link>https://example.com/tags/</link>
+    <link>https://doced.github.io/tags/</link>
     <description>Recent content in Tags on Ed Palmer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://doced.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fragility index</title>
-      <link>https://example.com/tags/fragility-index/</link>
+      <link>https://doced.github.io/tags/fragility-index/</link>
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/fragility-index/</guid>
+      <guid>https://doced.github.io/tags/fragility-index/</guid>
       <description></description>
     </item>
     
     <item>
       <title>p value</title>
-      <link>https://example.com/tags/p-value/</link>
+      <link>https://doced.github.io/tags/p-value/</link>
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/p-value/</guid>
+      <guid>https://doced.github.io/tags/p-value/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>https://example.com/tags/statistics/</link>
+      <link>https://doced.github.io/tags/statistics/</link>
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/statistics/</guid>
+      <guid>https://doced.github.io/tags/statistics/</guid>
       <description></description>
     </item>
     

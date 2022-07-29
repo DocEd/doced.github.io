@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://doced.github.io/about/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://doced.github.io/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/fragility-index/</loc>
+    <loc>https://doced.github.io/tags/fragility-index/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/p-value/</loc>
+    <loc>https://doced.github.io/tags/p-value/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://doced.github.io/posts/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/randomised-controlled-trials-anything-but-fragile/</loc>
+    <loc>https://doced.github.io/posts/randomised-controlled-trials-anything-but-fragile/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/statistics/</loc>
+    <loc>https://doced.github.io/tags/statistics/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://doced.github.io/tags/</loc>
     <lastmod>2022-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://doced.github.io/categories/</loc>
   </url>
 </urlset>
