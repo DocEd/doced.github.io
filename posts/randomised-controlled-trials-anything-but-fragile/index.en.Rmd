@@ -81,7 +81,7 @@ figure_4_cap <- "*Relationship between predicted fragility index and calculated 
 ```
 
 I found a near-perfect relationship (R^2^ = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (figure 4).
-Elements of this relationship have previously been recognised [@carter2016], however to my knowledge, I am the first to fully characterise the relationship between fragility index and study characteristics.
+Elements of this relationship have previously been recognised [@carter2016].
 
 ```{r, fig.cap=figure_4_cap}
 knitr::include_graphics("./figure4.png", dpi = 300)
