@@ -19,18 +19,20 @@ about:
       aria-label: "BlueSky logo linking to doced.bsky.social account"
 ---
 
-I am a full time doctor working in anaesthesia and intensive care medicine based in North London.
-My research background is in the operationalisation of routinely collected healthcare records for research.
-Particularly where research goals may be challenging to answer under traditional frameworks because anticipated effect sizes are very small, that it is too expensive, or there are concerns over equipoise.
-My PhD investigated the safe limits of these resources, which provide unique challenges to be overcome, both infratructurally and methodoligically.
+I am a doctor working in anaesthesia and intensive care medicine based in the UK in London.
+My research background is in the reuse of routinely collected longitudinal healthcare data for research.
+My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise.
+My PhD investigated the safe limits---including addressing intrinsic biases---of these resources.
+This ties with my clinical interest in sepsis, where my research took steps towards a better understanding "time zero" and the association between physiological trajectories and outcomes in sepsis.
 
-I often get asked to share my slides or notes on various topics ranging from journal club to medical education.
-And so I have started to collate these here as a resource to direct people to.
-This is going to mostly be a collection of less formal work, that I don't think necessaily warrents a submission to a journal, but is perhaps something I've spoken about one too many times in the coffee room, and so would benefit from being researched more deeply and written down.
-I welcome criticsm and discussion of any of the ideas published here.
+I often get asked to share my slides or notes on various topics ranging from journal clubs to medical education.
+So I have started to collate these resources here to share more directly.
+This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission.
+Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment.
+I welcome discussion of any of the ideas published here.
 
 As a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free[^1] and open software.
-When I'm not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children.
+When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children.
 
 [^1]:Free as in freedom.
 
@@ -39,14 +41,14 @@ When I'm not tinkering with ventilators or R, I try to spend as much time as pos
 ::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
 ## Education
 
-- **_FFICM_. Fellow of Faculty of Intensive Care Medicine**, **2024**  
-  *Royal College of Anaesthesia, UK*
+- **_FFICM_. Fellow of The Faculty of Intensive Care Medicine**, **2024**  
+  *The Royal College of Anaesthetists, UK*
 
 - **_Ph.D._ in Intensive Care Medicine & Health Informatics**, **2020**  
   *University College London, UK*
 
 - **_FRCA_. Fellow of the Royal College of Anaesthetists**, **2016**  
-  *Royal College of Anaesthesia, UK*
+  *The Royal College of Anaesthetists, UK*
 
 - **_MBBS_. Medicine**, **2011**  
   *King's College London, UK*

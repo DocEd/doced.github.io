@@ -149,22 +149,10 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#preamble" id="toc-preamble" class="nav-link active" data-scroll-target="#preamble">Preamble</a></li>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -202,17 +190,17 @@ div.csl-indent {
 
 <section id="preamble" class="level1">
 <h1>Preamble</h1>
-<p>I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is <em>already</em> known), and so I am posting it here. I hope this is of use to medical community who currently use the fragility index.</p>
+<p>I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is <em>already</em> known), and so I am posting it here. I hope this is of use to the medical community who currently use the fragility index.</p>
 </section>
-<section id="introduction" class="level1">
+<section id="introduction" class="level1 page-columns page-full">
 <h1>Introduction</h1>
 <p>In 2014, the fragility index was proposed to evaluate the strength of evidence provided by a randomised controlled trial (RCT) <span class="citation" data-cites="walsh2014">(<a href="#ref-walsh2014" role="doc-biblioref">1</a>)</span>. The method entails hypothetically moving patients, one at a time, within the intervention arm of an RCT from “survival” to “death” (<a href="#fig-fi" class="quarto-xref">Figure&nbsp;1</a>). For each patient move, the p value for the primary outcome is recalculated using Fisher’s exact test <span class="citation" data-cites="agresti2002">(<a href="#ref-agresti2002" role="doc-biblioref">2</a>)</span>. The number of patients moved in order to render the p value greater than 0.05 is the fragility index.</p>
-<div id="fig-fi" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
+<div id="fig-fi" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-fi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="./figure1.png" class="img-fluid figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-fi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Illustration of the calculation of the fragility index
 </figcaption>
 </figure>
@@ -221,38 +209,38 @@ Figure&nbsp;1: Illustration of the calculation of the fragility index
 <p>The fragility index certainly has superficial appeal as it feels intuitive. However, I will demonstrate empirically with “in-silico” simulation that it is a simple transformation of the study’s p value. Thus, the fragility index cannot comment upon the validity of an RCT as no new information has been learnt. The fragility index beguiles the reader into mistrusting the results of an otherwise well conducted study. In this instance, we should ignore intuition, and instead rely upon the rigorous statistical frameworks that already have a rich history of reliably discriminating signal from noise.</p>
 <p>RCTs are powered a priori to detect a minimum clinically important difference (MCID); the smallest effect size that would be clinically meaningful. This power calculation specifies the minimum number of patients to be recruited so that if a true effect exists (greater than or equal to the MCID), it will produce a “significant” result with a p value below the alpha boundary (typically set at 0.05) at a known frequency (typically 80-90%). Over-recruitment exposes more patients to potential harm and requires more resources and time.</p>
 <p>The p value is a hypothetical frequency probability in that its properties are guaranteed in the long run over an infinite number of imagined future trials. In practice, only a single RCT can be performed, and a single p value observed. I performed computer simulations of parallel arm RCTs to observe the long running behaviour of the p value and fragility index. Nine scenarios were examined: a true absolute risk reduction (ARR) in mortality of 15%, 10% and 5%, each powered at 70%, 80% and 90%. Control group mortality was fixed at 30%. The numbers of patients required for each combination of ARR and power ranged from 190 (15% ARR at 70% power) to 3,346 (5% ARR at 90% power). Each scenario was simulated 1,000 times. Simulations were conducted in R <span class="citation" data-cites="R-base">(<a href="#ref-R-base" role="doc-biblioref">14</a>)</span> with code published in the public domain <span class="citation" data-cites="palmer2019a">(<a href="#ref-palmer2019a" role="doc-biblioref">15</a>)</span>.</p>
-<p>Figure 2 shows the distribution of the fragility index for each scenario. For a given effect size, the fragility index increases as the study power (and hence sample size) is increased. Likewise, for a given power, the fragility index increases as the effect size decreases (and hence sample size increases). Crucially, all the simulations are equally valid since the underlying data generating mechanism has been controlled. The fragility index is thus an expression of the study characteristics, and not of validity.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./figure2.png" class="img-fluid figure-img" width="864"></p>
-<figcaption><em>Box and Whisker plots demonstrating the distribution of fragility index over a range of possible study scenarios. Each facet details 1000 realisations of the simulation. Levels of absolute risk reduction and power are organised by column and row respectively.</em></figcaption>
+<p><a href="#fig-box" class="quarto-xref">Figure&nbsp;2</a> shows the distribution of the fragility index for each scenario. For a given effect size, the fragility index increases as the study power (and hence sample size) is increased. Likewise, for a given power, the fragility index increases as the effect size decreases (and hence sample size increases). Crucially, all the simulations are equally valid since the underlying data generating mechanism has been controlled. The fragility index is thus an expression of the study characteristics, and not of validity.</p>
+<div id="fig-box" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-box-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./figure2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-box-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Box and Whisker plots demonstrating the distribution of fragility index over a range of possible study scenarios. Each facet details 1000 realisations of the simulation. Levels of absolute risk reduction and power are organised by column and row respectively.
+</figcaption>
 </figure>
 </div>
+<p><a href="#fig-p" class="quarto-xref">Figure&nbsp;3</a> shows the clear relationship between the fragility index and the p value. The fragility index can be regarded as a transformation of the p value, with the shape of the relationship determined by the number of participants, the observed treatment effect and control group mortality.</p>
+<div id="fig-p" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-p-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./figure2.png" class="img-fluid figure-img">
 </div>
-</div>
-<p>Figure 3 shows the clear relationship between the fragility index and the p value. The fragility index can be regarded as a transformation of the p value, with the shape of the relationship determined by the number of participants, the observed treatment effect and control group mortality.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./figure3.png" class="img-fluid figure-img" width="864"></p>
-<figcaption><em>Relationship between p value and fragility index stratified by absolute risk reduction.</em></figcaption>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-p-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Relationship between p value and fragility index stratified by absolute risk reduction.
+</figcaption>
 </figure>
 </div>
+<p>I found a near-perfect relationship (R<sup>2</sup> = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (<a href="#fig-rel" class="quarto-xref">Figure&nbsp;4</a>). Elements of this relationship have previously been recognised <span class="citation" data-cites="carter2016">(<a href="#ref-carter2016" role="doc-biblioref">16</a>)</span>.</p>
+<div id="fig-rel" class="quarto-float quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-rel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./figure4.png" class="img-fluid figure-img">
 </div>
-</div>
-<p>I found a near-perfect relationship (R<sup>2</sup> = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (figure 4). Elements of this relationship have previously been recognised <span class="citation" data-cites="carter2016">(<a href="#ref-carter2016" role="doc-biblioref">16</a>)</span>.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./figure4.png" class="img-fluid figure-img" width="864"></p>
-<figcaption><em>Relationship between predicted fragility index and calculated fragility index. The predicted fragililty is a function of the log transformed p value, number of study participants, observed treatment effect and control group mortality.</em></figcaption>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-rel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Relationship between predicted fragility index and calculated fragility index. The predicted fragililty is a function of the log transformed p value, number of study participants, observed treatment effect and control group mortality.
+</figcaption>
 </figure>
-</div>
-</div>
 </div>
 <p>Thus, the fragility index is an encapsulation of these study parameters into a single figure. RCTs with identical p values (for example 0.04) will differ in their fragility index only due to the difference in these observed study characteristics.</p>
 <p>There has been a long-standing tension between statistical analysis and the need to inform policy. The former aims to describe an observed effect in terms of uncertainty, whereas policy (such as “should I administer an antibiotic”) is necessarily binary, i.e.&nbsp;to act or not. Ultimately, a line must be drawn where evidence is strong enough to prompt action. That strength of evidence is commonly—though completely arbitrarily—set at a p value of 0.05. The fragility index begs us to entertain a secondary decision boundary. At what fragility index is a study now deemed to be no longer fragile? 5, 10, 500? As demonstrated above, this is simply a request for greater power to provide more evidence for the study question. In RCTs, the optimal study size for a given effect size has already been determined a priori. The Neyman-Pearson Lemma (a mathematical proof) demonstrates that any secondary decision boundary is necessarily less optimal than the original <span class="citation" data-cites="rice2014">(<a href="#ref-rice2014" role="doc-biblioref">17</a>)</span>.</p>

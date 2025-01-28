@@ -1,7 +1,7 @@
 ---
 title: "Randomised Controlled Trials: Anything But Fragile"
 date: "2022-07-29"
-csl: ./blue.csl
+csl: ./standard.csl
 author:
   - name: Ed Palmer
     url: https://doced.github.io/
@@ -15,13 +15,14 @@ categories:
   - statistics
 editor_options: 
   chunk_output_type: console
+fig-cap-location: margin
 ---
 
 # Preamble
 
 I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community.
 Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is *already* known), and so I am posting it here.
-I hope this is of use to medical community who currently use the fragility index.
+I hope this is of use to the medical community who currently use the fragility index.
 
 # Introduction
 
@@ -56,32 +57,23 @@ The numbers of patients required for each combination of ARR and power ranged fr
 Each scenario was simulated 1,000 times.
 Simulations were conducted in R [@R-base] with code published in the public domain [@palmer2019a].
 
-Figure 2 shows the distribution of the fragility index for each scenario.
+@fig-box shows the distribution of the fragility index for each scenario.
 For a given effect size, the fragility index increases as the study power (and hence sample size) is increased.
 Likewise, for a given power, the fragility index increases as the effect size decreases (and hence sample size increases).
 Crucially, all the simulations are equally valid since the underlying data generating mechanism has been controlled.
 The fragility index is thus an expression of the study characteristics, and not of validity.
 
-```{r}
-#| fig.cap: "*Box and Whisker plots demonstrating the distribution of fragility index over a range of possible study scenarios. Each facet details 1000 realisations of the simulation. Levels of absolute risk reduction and power are organised by column and row respectively.*"
-knitr::include_graphics("./figure2.png", dpi = 300)
-```
+![Box and Whisker plots demonstrating the distribution of fragility index over a range of possible study scenarios. Each facet details 1000 realisations of the simulation. Levels of absolute risk reduction and power are organised by column and row respectively.](./figure2.png){#fig-box}
 
-Figure 3 shows the clear relationship between the fragility index and the p value.
+@fig-p shows the clear relationship between the fragility index and the p value.
 The fragility index can be regarded as a transformation of the p value, with the shape of the relationship determined by the number of participants, the observed treatment effect and control group mortality.
 
-```{r}
-#| fig.cap: "*Relationship between p value and fragility index stratified by absolute risk reduction.*"
-knitr::include_graphics("./figure3.png", dpi = 300)
-```
+![Relationship between p value and fragility index stratified by absolute risk reduction.](./figure2.png){#fig-p}
 
-I found a near-perfect relationship (R^2^ = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (figure 4).
+I found a near-perfect relationship (R^2^ = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (@fig-rel).
 Elements of this relationship have previously been recognised [@carter2016].
 
-```{r}
-#| fig.cap: "*Relationship between predicted fragility index and calculated fragility index. The predicted fragililty is a function of the log transformed p value, number of study participants, observed treatment effect and control group mortality.*"
-knitr::include_graphics("./figure4.png", dpi = 300)
-```
+![Relationship between predicted fragility index and calculated fragility index. The predicted fragililty is a function of the log transformed p value, number of study participants, observed treatment effect and control group mortality.](./figure4.png){#fig-rel}
 
 Thus, the fragility index is an encapsulation of these study parameters into a single figure.
 RCTs with identical p values (for example 0.04) will differ in their fragility index only due to the difference in these observed study characteristics.

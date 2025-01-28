@@ -4,14 +4,14 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\n\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#part-1",
     "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#part-1",
     "title": "Sepsis Hysteria: Part II",
     "section": "Part 1…",
-    "text": "Part 1…\n\n\nWe reviewed the “sepsis-six” and its (lack) of evidence.\nSepsis is a complex and unsolved problem.\nWe should be warey of simple answers to complex problems.\n\n\n\n\nObjectives for today:\n\nDefine sepsis and understand its historical context.\nConsider sepsis as a hetrogenous syndrome.\nUnderstand the gap between infection and sepsis and what fills it.\nReview management and best practices in “early” sepsis."
+    "text": "Part 1…\n\n\nWe reviewed the “sepsis-six” and its (lack) of evidence.\nSepsis is a complex and unsolved problem.\nWe should be warey of simple answers to complex problems.\n\n\n\n\nObjectives for today:\n\nDefine sepsis and understand its historical context.\nConsider sepsis as a hetrogenous syndrome.\nUnderstand the gap between infection and sepsis and what fills it.\nReview management and best practices in “early” sepsis.\n\n\n\n\nDisclaimer: any presented cases are entirely fictional."
   },
   {
     "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#history-definitions",
@@ -214,7 +214,7 @@
     "href": "posts/2022-07-29-fragility-index/index.html",
     "title": "Randomised Controlled Trials: Anything But Fragile",
     "section": "",
-    "text": "I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is already known), and so I am posting it here. I hope this is of use to medical community who currently use the fragility index."
+    "text": "I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is already known), and so I am posting it here. I hope this is of use to the medical community who currently use the fragility index."
   },
   {
     "objectID": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
@@ -228,14 +228,14 @@
     "href": "index.html",
     "title": "Ed Palmer",
     "section": "",
-    "text": "I am a full time doctor working in anaesthesia and intensive care medicine based in North London. My research background is in the operationalisation of routinely collected healthcare records for research. Particularly where research goals may be challenging to answer under traditional frameworks because anticipated effect sizes are very small, that it is too expensive, or there are concerns over equipoise. My PhD investigated the safe limits of these resources, which provide unique challenges to be overcome, both infratructurally and methodoligically.\nI often get asked to share my slides or notes on various topics ranging from journal club to medical education. And so I have started to collate these here as a resource to direct people to. This is going to mostly be a collection of less formal work, that I don’t think necessaily warrents a submission to a journal, but is perhaps something I’ve spoken about one too many times in the coffee room, and so would benefit from being researched more deeply and written down. I welcome criticsm and discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I’m not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
+    "text": "I am a doctor working in anaesthesia and intensive care medicine based in the UK in London. My research background is in the reuse of routinely collected longitudinal healthcare data for research. My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise. My PhD investigated the safe limits—including addressing intrinsic biases—of these resources. This ties with my clinical interest in sepsis, where my research took steps towards a better understanding “time zero” and the association between physiological trajectories and outcomes in sepsis.\nI often get asked to share my slides or notes on various topics ranging from journal clubs to medical education. So I have started to collate these resources here to share more directly. This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission. Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment. I welcome discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Ed Palmer",
     "section": "Education",
-    "text": "Education\n\nFFICM. Fellow of Faculty of Intensive Care Medicine, 2024\nRoyal College of Anaesthesia, UK\nPh.D. in Intensive Care Medicine & Health Informatics, 2020\nUniversity College London, UK\nFRCA. Fellow of the Royal College of Anaesthetists, 2016\nRoyal College of Anaesthesia, UK\nMBBS. Medicine, 2011\nKing’s College London, UK\nB.Sc. Imaging Sciences, 2008\nKing’s College London, UK"
+    "text": "Education\n\nFFICM. Fellow of The Faculty of Intensive Care Medicine, 2024\nThe Royal College of Anaesthetists, UK\nPh.D. in Intensive Care Medicine & Health Informatics, 2020\nUniversity College London, UK\nFRCA. Fellow of the Royal College of Anaesthetists, 2016\nThe Royal College of Anaesthetists, UK\nMBBS. Medicine, 2011\nKing’s College London, UK\nB.Sc. Imaging Sciences, 2008\nKing’s College London, UK"
   },
   {
     "objectID": "index.html#interests",

@@ -1,15 +1,19 @@
 ---
 title: "Sepsis Hysteria: Part II"
 subtitle: "A practical approach to getting it right"
-date: 2025-01-28
+date: "2025-01-28"
+image: ./source-control-meme.png
 institute: "ST8 in Anaesthesia & Intensive Care Medicine"
 format:
   revealjs:
     theme: [default, styles.scss]
 smaller: true
+categories:
+  - "sepsis"
+  - "intensive care medicine"
 editor_options: 
   chunk_output_type: console
-csl: ./blue.csl
+csl: ./standard.csl
 bibliography:
   - ./sepsis-bib.bib
 ---
@@ -30,6 +34,11 @@ bibliography:
   - Consider sepsis as a *hetrogenous* syndrome.
   - Understand the gap between infection and sepsis and what fills it.
   - Review management and best practices in "early" sepsis.
+
+:::
+:::{.fragment}
+
+Disclaimer: any presented cases are entirely fictional.
 
 :::
 
@@ -169,7 +178,7 @@ bibliography:
 
 ::::
 
-# Is it sepsis?^[Disclaimer: cases are fictional but inspired by real cases.]
+# Is it sepsis?
 
 ## Is it sepsis?
 
