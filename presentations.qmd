@@ -1,0 +1,8 @@
+---
+title: "Presentations"
+listing: 
+  contents: presentations
+  type: default
+  sort: "date desc"
+  categories: true
+---

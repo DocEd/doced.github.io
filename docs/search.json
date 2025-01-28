@@ -1,0 +1,261 @@
+[
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#part-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#part-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Part 1…",
+    "text": "Part 1…\n\n\nWe reviewed the “sepsis-six” and its (lack) of evidence.\nSepsis is a complex and unsolved problem.\nWe should be warey of simple answers to complex problems.\n\n\n\n\nObjectives for today:\n\nDefine sepsis and understand its historical context.\nConsider sepsis as a hetrogenous syndrome.\nUnderstand the gap between infection and sepsis and what fills it.\nReview management and best practices in “early” sepsis."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#history-definitions",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#history-definitions",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "History & Definitions",
+    "text": "History & Definitions\n\nSepsis (1992) Bone et al.(1)\n\nConsensus definition for: SIRS, sepsis, severe sepsis, septic shock.\n\\(\\text{Sepsis} = \\text{SIRS} + \\text{Infection}\\)\n\n\n\n\nSepsis 2 (2001) Levy et al.(2)\n\nConsensus defintion: unchanged. Expanded some diagnostic criteria.\nNoted: SIRS insensitive and non-specific.\n\n\n\n\n\nSepsis 3 (2016) Singer et al.(3)\n\nEmpiric defintiion\n\\(\\text{Sepsis} = \\text{SOFA} + \\text{Infection}\\)\n“Sepsis” retired. “Severe sepsis” = “sepsis”.\nSepsis: 10% mortality. Organ dysfunction\nSeptic shock: 40% mortality; Organ failure."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#definitions",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#definitions",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Definitions",
+    "text": "Definitions\n\nSepsis is a life threatenin organ dysfunction caused by a dysregulated host response to infection\nSinger et al.(3)\n\n\n\nInfection\nDysregulated host response\nOrgan dysfunction (and failure)\nLife threatening"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#organ-failure",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#organ-failure",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Organ Failure",
+    "text": "Organ Failure"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#pathophysiology",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#pathophysiology",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Pathophysiology",
+    "text": "Pathophysiology\n\n\nIt’s… complicated\nDAMPS and PAMPS\nVasoplegia and mitochondrial failure"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#immune-and-cellular",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#immune-and-cellular",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Immune and Cellular",
+    "text": "Immune and Cellular\n\n\nPathogen associated molecular patterns (PAMPs): well conserved foreign cellular apparatus e.g. endotoxin (lipopolysaccharide).\nIdentification of PAMPs by: dendritic cells, macrophages etc.\nPattern recognition receptors (PRRs); toll-like receptors\nInflammatory mediators are released: TNF-alpha, IL-1 and IL-6.\nThese recruit and activate polymorphonuclear leukocytes (PMNLs).\nPMNLs arrive at the site of infection to release inflammatory mediators designed to kill foreign microbes.\nDamage associated molecular patterns (DAMPs): host material like mitochondrial DNA released during cellular injury (“friendly fire”).\nPRRs assemble into molecular complexes: inflammasomes\nInflammasomes involved in secretion of the highly potent cytokines IL-1\\(\\beta\\) and IL-18 (triggering cellular apoptosis)"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#immune-and-cellular-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#immune-and-cellular-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Immune and Cellular",
+    "text": "Immune and Cellular\n\nThe net effect:\n\nIncrease number, lifespan and activation of innate immune cells.\nInduce hepatic acute phase proteins: complement and fibrinogen\nTrigger neutrophils to release extracellular traps (NETs)\nUpregulate tissue factor expression by blood monocytes (immune mediated thrombosis)\n\nSo far… this is all perfectly normal…"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#early-damage-pathway",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#early-damage-pathway",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Early Damage Pathway",
+    "text": "Early Damage Pathway\n\n\nReactive Oxygen Species (ROS) damage cellular proteins and DNA.\nMitochondrial function impaired; bioenergenic failure.\nWidespread thrombosis: microvascular flow dysfunction with organ failure.\n\n\n\n\nA number of negative feedback loops begin to amplify:\n\nCellular ischaemia\nIntracellular/mitochondrial dysfunction\nLactataemia\nSelf sustained cytokine production and inflammatory dysregulation."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#downstream-sequelae",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#downstream-sequelae",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Downstream Sequelae",
+    "text": "Downstream Sequelae\n\n\n\nCardiovascular:\n\nMyocardial dysfunction\nVasoplegia\nIncreased vascular permeability\n\nRespiratory:\n\nV/Q mismatch\nARDS\n\nRenal:\n\nreduction in filtration rate regardless of haemodynamics.\nAKI\n\nNeurological:\n\nSepsis encephalopathy\n\n\n\n\nGut:\n\nOedema and bacterial translocation.\nImpaired hepatic microbial clearance of the portal system.\nPancreatic autodigestion.\n\nLiver:\n\nImpaired hepatocyte clearance of bilirubin and cholestasis\n\nHaematological:\n\nDIC\nPancytopaenia\n\nMusculocutaneous:\n\nSarcopenia and ICU-Acquired Weakness"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Is it sepsis?",
+    "text": "Is it sepsis?\nAn 85 year old patient presenting to the A&E with 3 days history of myalgia and non-specifc deterioration; “off legs”.\nInitial observations: SpO2 not-recordable as patient moving too much. BP 110/75. HR 95 sinus. RR 20. Patient confused and agitated, temp 36.4.\nInitial labs: WCC 10.5, Plts 33, CRP 208, INR 3.1, Fibrinogen 85."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-2",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-2",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Is it sepsis?",
+    "text": "Is it sepsis?\nA 35 year old with a 3 day history of cough productive of green sputum. Now feels SOB so took self to A&E. Otherwise well.\nInitial observations: SpO2 78% RA. RR 35. Febrile 38. HR 110. BP 135/85.\nInitial labs: WCC 14, CRP 85\nVBG: Lactate 0.8"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-3",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#is-it-sepsis-3",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Is it sepsis?",
+    "text": "Is it sepsis?\nA 17 year old with a 36 hour history of migratory RIF pain. Parents brought to A&E.\nInitial observations: SpO2 99% RA. RR 20. Febrile 38. HR 110. BP 135/85.\nInitial labs: WCC 14, CRP 85\nVBG: Lactate 0.8"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sepsis-as-a-syndrome",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sepsis-as-a-syndrome",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Sepsis as a Syndrome",
+    "text": "Sepsis as a Syndrome\n\n\nNot always immediately clear if a severe infection is sepsis\nSepsis is not a single disease\nExtremely heterogeneous\nUnified by common themes\nThe microbial zoo:\n\nPredators: Group A Strep, Staphylococcus Aureus, Neisseria meningitidis\nCohabitants: Lot’s of others"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#paradox-of-early-treatment",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#paradox-of-early-treatment",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Paradox of Early Treatment",
+    "text": "Paradox of Early Treatment\n\nSepsis was necessarily redefined: SOFA\nBut this creates a vacuum:\n\nWhat do we do before they become septic?\nCan we prevent it?\nWhen does someone “become” septic?\n\nProper sepsis, especially if vulnerable, is an emergency\nIf everything is an emergency, nothing is."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#how-the-void-was-filled",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#how-the-void-was-filled",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "How the void was filled",
+    "text": "How the void was filled\n\n\n“Red flag sepsis”\nSepsis screening\n\n\n\n\nIdentify different populations\nCriticisms of “missed sepsis” often totally unfounded\n\nAsking for “pre-sepsis” not “early sepsis”."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Practical Advice",
+    "text": "Practical Advice\n\nClarify potential source of infection:\n\nDifferent for new admissions vs. inpatients\n“Septic screen”?… “Infection Inquest”\n\nClarify organ dysfunction:\n\nWhich organs are effected and how?\n\nCulture before ABx wherever possible.\n\nSputum, urine, CSF, pus etc.\nBlood cultures: Aerobic first, 10 mL each."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Practical Advice",
+    "text": "Practical Advice\n\nSource control, source control, source control."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice-2",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#practical-advice-2",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Practical Advice",
+    "text": "Practical Advice\n\nSource control, source control, source control.\nGive ABx considering the likely source.\nInvestigations (including imaging) directed to find source.\n20-30 mL/Kg: fluids for hypotension\n\nCall the ICU\nAccept when patients are no longer fluid responsive\nRefractory lactataemia likely doesn’t reflect hypovolaemia\n\nReview your patient often. Get help and escalate."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#our-turn",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#our-turn",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Our Turn",
+    "text": "Our Turn\n\nOrgan support: buys time\nDon’t cause harm: Lung protective ventilation. Catheter care etc.\nSome potential treatments:\n\nAlbumin\nNorAdrenaline, Vasopressin\nMethylene Blue\nSteroids"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sepsis-mimics",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sepsis-mimics",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Sepsis Mimics",
+    "text": "Sepsis Mimics\n\n\n\nAutoimmune: Vasculitis.\nTraumatic: SIRS following polytrauma.\nVascular\n\nPulmonary Embolus\nIntestinal Ischaemia.\nHypovolaemia.\nCardiogenic Shock: MI etc.\n\nEndocrine and Metabolic\n\nHyperthermic Toxidrome\nDiabetic Ketoacidosis\nAddisons\nThyrotoxicosis\n\n\n\n\nInflammatory\n\nPancreatitis\nBowel obstruction\nAnaphylaxis\nHemophagocytic lymphohistiocytosis (HLH)1\n\nNeoplastic\n\nLymphoma and Haematological Malignancy\nDisease progression\nTumour Lysis Syndrome\n\nDrug induced: Stevens-Johnson Syndrome and TEN\n\n\nThis one is insanely difficult but a topic for another day"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#documenting-your-review",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#documenting-your-review",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Documenting your Review",
+    "text": "Documenting your Review\n\nWrite the diagnosis in terms of the definition: Infection + Organ Dysfunction\nConsider other differentials/sepsis mimics using a surgical sieve\nAvoid terms like “urosepsis”, “chest sepsis” etc.\nAvoid one-liners: “impression sepsis”\nIt’s ok to write: simple infection and doesn’t have sepsis.\nIt’s ok to describe uncertainty: Possible, probable, confirmed etc."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#documenting-your-review-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#documenting-your-review-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Documenting your Review",
+    "text": "Documenting your Review\nProbable sepsis from a pneumonic (lung) source manifesting as cardiovascular (hypotension), respiratory (oxygen requirement) and renal (AKI) organ dysfunctions.\nMicrobial source as yet undefined.\nMain differentials include: cardiogenic pulmonary oedema and PE.\nPLAN\n\nObtain sputum\nBlood cultures followed by immediate ABx to cover for community respiratory organisms.\nFluid resuscitation directed by capillary refil with 2 hourly VBGs to check for lactate clearance.\nC-XR\nConsider CT-PA\n\nPlan initiated with senior review to follow."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#guidelines",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#guidelines",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Guidelines",
+    "text": "Guidelines"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#nice",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#nice",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "NICE",
+    "text": "NICE\n\nThink ‘could this be sepsis?’ if a person presents with symptoms or signs that indicate possible infection.\n\n\nTroubling that this is the first recommendation in their guideline\nBut…\n\nTake a proper history and examine. Be systematic.\nCreate a differential diagnosis\nSepsis should be part of any differential in at risk populations or non-specific presentations.\n\nKnow the groups at high risk of developing sepsis\nPregnancy, children, neutropaenia, the predators.\nPerform a full secondary survey if someone hasn’t previously\nUse and apply NEWS-2"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#nice-1",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#nice-1",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "NICE",
+    "text": "NICE\n\ntake microbiological and blood samples before giving an antimicrobial.\n\n\ngive a broad-spectrum antimicrobial at the maximum recommended dose, without delay (within 1 hour of identifying that they meet any high risk criteria), if antibiotics have not already been given for this episode of sepsis\n\n\ndiscuss with a consultant.\n\n\n[Clinician \\(\\geq\\)FY2] think about alternative diagnoses to sepsis"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sscsurviving-sepsis-trial-2021a",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#sscsurviving-sepsis-trial-2021a",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "SSC(4)",
+    "text": "SSC(4)\n\nRecommends against qSOFA for screening (prefer NEWS)1\n\n\nFor patients with sepsis induced hypoperfusion or septic shock we suggest that at least 30 mL/kg of intravenous (IV) crystalloid fluid should be given within the first 3 h of resuscitation\n\n\nGuide resuscitation with “dynamic parameters”\nTarget lactate clearance, but also capillary refil.(5)\n\nUnclear if this will change based on emerging evidence."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#question-your-assumptions",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#question-your-assumptions",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Question Your Assumptions",
+    "text": "Question Your Assumptions\n\n\n\n\n\n\n\n\n\n\nPatient Getting Better\nPatient Getting Worse\n\n\n\n\nI know whats going on\nGreat! No Change\nAre you missing something? Second opinion. Check your biases.\n\n\nI don’t know whats going on\nSeek education\nThe bad place. Get help immediately.\n\n\n\n\n\n\nAlmost all my referrals are the right column by definition.\nMost patients come to hospital, get the right diagnosis, and get better.\nSome patients come to hospital and despite treatment get worse.\n\nDid we get it wrong?"
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#lacking-evidence",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#lacking-evidence",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "Lacking evidence",
+    "text": "Lacking evidence\n\nIVIG. Maybe. Specific predators.\nVitamin C. Lol Nope.\nAnti-coagulation. Nope.\nExtra-corporeal absorption: High flux CVVH. Nope."
+  },
+  {
+    "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#references",
+    "href": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#references",
+    "title": "Sepsis Hysteria: Part II",
+    "section": "References",
+    "text": "References\n\n\n\n\n1. Bone RC, Balk RA, Cerra FB, Dellinger RP, Fein AM, Knaus WA, Schein RMH, Sibbald WJ. Definitions for sepsis and organ failure and guidelines for the use of innovative therapies in sepsis. The ACCP/SCCM Consensus Conference Committee. American College of Chest Physicians/Society of Critical Care Medicine. Chest 1992;101:1644–55.\n\n\n2. Levy MM, Fink MP, Marshall JC, Abraham E, Angus DC, Cook D, Cohen J, Opal SM, Vincent J-L, Ramsay G, et al. 2001 SCCM/ESICM/ACCP/ATS/SIS International Sepsis Definitions Conference. Critical care medicine 2003;31:1250–1256.\n\n\n3. Singer M, Deutschman CS, Seymour C, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA - Journal of the American Medical Association 2016;315:801–810.\n\n\n4. Evans L, Rhodes A, Alhazzani W, Antonelli M, Coopersmith CM, French C, Machado FR, Mcintyre L, Ostermann M, Prescott HC, et al. Surviving sepsis campaign: International guidelines for management of sepsis and septic shock 2021. Intensive Care Medicine 2021;47:1181–1247.\n\n\n5. Hernández G, Ospina-Tascón GA, Damiani LP, Estenssoro E, Dubin A, Hurtado J, Friedman G, Castro R, Alegría L, Teboul J-L, et al. Effect of a Resuscitation Strategy Targeting Peripheral Perfusion Status vs Serum Lactate Levels on 28-Day Mortality Among Patients With Septic Shock: The ANDROMEDA-SHOCK Randomized Clinical Trial. JAMA 2019;321:654."
+  },
+  {
+    "objectID": "posts/2022-07-29-fragility-index/index.html",
+    "href": "posts/2022-07-29-fragility-index/index.html",
+    "title": "Randomised Controlled Trials: Anything But Fragile",
+    "section": "",
+    "text": "I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is already known), and so I am posting it here. I hope this is of use to medical community who currently use the fragility index."
+  },
+  {
+    "objectID": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
+    "href": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
+    "title": "Randomised Controlled Trials: Anything But Fragile",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMany thanks to Giampiero Marra and Mervyn Singer (who provided valuable feedback to shape the first draft of this editorial), and Steve Harris, David Palmer, Dave Brealey, Clare Black and Ben Post."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ed Palmer",
+    "section": "",
+    "text": "I am a full time doctor working in anaesthesia and intensive care medicine based in North London. My research background is in the operationalisation of routinely collected healthcare records for research. Particularly where research goals may be challenging to answer under traditional frameworks because anticipated effect sizes are very small, that it is too expensive, or there are concerns over equipoise. My PhD investigated the safe limits of these resources, which provide unique challenges to be overcome, both infratructurally and methodoligically.\nI often get asked to share my slides or notes on various topics ranging from journal club to medical education. And so I have started to collate these here as a resource to direct people to. This is going to mostly be a collection of less formal work, that I don’t think necessaily warrents a submission to a journal, but is perhaps something I’ve spoken about one too many times in the coffee room, and so would benefit from being researched more deeply and written down. I welcome criticsm and discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I’m not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Ed Palmer",
+    "section": "Education",
+    "text": "Education\n\nFFICM. Fellow of Faculty of Intensive Care Medicine, 2024\nRoyal College of Anaesthesia, UK\nPh.D. in Intensive Care Medicine & Health Informatics, 2020\nUniversity College London, UK\nFRCA. Fellow of the Royal College of Anaesthetists, 2016\nRoyal College of Anaesthesia, UK\nMBBS. Medicine, 2011\nKing’s College London, UK\nB.Sc. Imaging Sciences, 2008\nKing’s College London, UK"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Ed Palmer",
+    "section": "Interests",
+    "text": "Interests\n\nResearch methods\nTrials in Intensive Care Medicine\nStatistical literacy in medicine\nRunning"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Ed Palmer",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFree as in freedom.↩︎"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Randomised Controlled Trials: Anything But Fragile\n\n\n\n\n\n\nstatistics\n\n\n\n\n\n\n\n\n\nJul 29, 2022\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+  }
+]

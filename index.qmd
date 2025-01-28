@@ -1,0 +1,67 @@
+---
+title: "Ed Palmer"
+subtitle: |
+  Doctor in Anaesthetics & Intensive Care Medicine, R enthusiast, Dad.
+image: /assets/images/profile.jpg
+about:
+  template: solana
+  image-width: 9em
+  image-shape: round
+  links:
+    - text: "{{< iconify fa6-solid:envelope >}}"
+      href: "mailto:edward.palmer.web@icloud.com"
+      aria-label: "envelope logo for email"
+    - text: "{{< iconify fa6-brands:orcid >}}"
+      href: "https://orcid.org/0000-0002-8024-4616"
+      aria-label: "ORCID logo linking to ORCID account"
+    - text: "{{< iconify fa6-brands:bluesky >}}"
+      href: "https://bsky.app/profile/doced.bsky.social"
+      aria-label: "BlueSky logo linking to doced.bsky.social account"
+---
+
+I am a full time doctor working in anaesthesia and intensive care medicine based in North London.
+My research background is in the operationalisation of routinely collected healthcare records for research.
+Particularly where research goals may be challenging to answer under traditional frameworks because anticipated effect sizes are very small, that it is too expensive, or there are concerns over equipoise.
+My PhD investigated the safe limits of these resources, which provide unique challenges to be overcome, both infratructurally and methodoligically.
+
+I often get asked to share my slides or notes on various topics ranging from journal club to medical education.
+And so I have started to collate these here as a resource to direct people to.
+This is going to mostly be a collection of less formal work, that I don't think necessaily warrents a submission to a journal, but is perhaps something I've spoken about one too many times in the coffee room, and so would benefit from being researched more deeply and written down.
+I welcome criticsm and discussion of any of the ideas published here.
+
+As a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free[^1] and open software.
+When I'm not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children.
+
+[^1]:Free as in freedom.
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-8 style="text-align: left;"}
+## Education
+
+- **_FFICM_. Fellow of Faculty of Intensive Care Medicine**, **2024**  
+  *Royal College of Anaesthesia, UK*
+
+- **_Ph.D._ in Intensive Care Medicine & Health Informatics**, **2020**  
+  *University College London, UK*
+
+- **_FRCA_. Fellow of the Royal College of Anaesthetists**, **2016**  
+  *Royal College of Anaesthesia, UK*
+
+- **_MBBS_. Medicine**, **2011**  
+  *King's College London, UK*
+
+- **_B.Sc_. Imaging Sciences**, **2008**  
+  *King's College London, UK*
+:::
+
+::: {.g-col-12 .g-col-md-4 style="text-align: left;"}
+## Interests
+
+- Research methods
+- Trials in Intensive Care Medicine
+- Statistical literacy in medicine
+- Running
+:::
+
+::::

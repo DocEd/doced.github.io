@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ed Palmer">
+<meta name="dcterms.date" content="2022-07-29">
+
+<title>Randomised Controlled Trials: Anything But Fragile – Ed Palmer</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ed Palmer</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../presentations.html"> 
+<span class="menu-text">Presentations</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://bsky.app/profile/doced.bsky.social" title="BS" class="quarto-navigation-tool px-1" aria-label="BS"><i class="bi bi-"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://code.com">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://bugs.com">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#preamble" id="toc-preamble" class="nav-link active" data-scroll-target="#preamble">Preamble</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Randomised Controlled Trials: Anything But Fragile</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">statistics</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://doced.github.io/">Ed Palmer</a> <a href="https://orcid.org/0000-0002-8024-4616" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 29, 2022</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="preamble" class="level1">
+<h1>Preamble</h1>
+<p>I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is <em>already</em> known), and so I am posting it here. I hope this is of use to medical community who currently use the fragility index.</p>
+</section>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>In 2014, the fragility index was proposed to evaluate the strength of evidence provided by a randomised controlled trial (RCT) <span class="citation" data-cites="walsh2014">(<a href="#ref-walsh2014" role="doc-biblioref">1</a>)</span>. The method entails hypothetically moving patients, one at a time, within the intervention arm of an RCT from “survival” to “death” (<a href="#fig-fi" class="quarto-xref">Figure&nbsp;1</a>). For each patient move, the p value for the primary outcome is recalculated using Fisher’s exact test <span class="citation" data-cites="agresti2002">(<a href="#ref-agresti2002" role="doc-biblioref">2</a>)</span>. The number of patients moved in order to render the p value greater than 0.05 is the fragility index.</p>
+<div id="fig-fi" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./figure1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Illustration of the calculation of the fragility index
+</figcaption>
+</figure>
+</div>
+<p>The originators of the fragility index applied it to nearly 400 high profile RCTs. They contended that a large number of these RCTs were “fragile” in that a small number of patients experiencing a different outcome would change the conclusions of the study <span class="citation" data-cites="walsh2014">(<a href="#ref-walsh2014" role="doc-biblioref">1</a>)</span>. Many RCTs have now been evaluated with the fragility index; including studies in critical care; peri-operative medicine; surgery; anaesthetics; urology; ophthalmology; cardiology and nephrology <span class="citation" data-cites="ridgeon2016 mazzinari2018 bertaggia2019 tignanelli2019 shen2018 narayan2018 noel2018 khan2017 shochet2017 docherty2016 evaniew2015">(<a href="#ref-ridgeon2016" role="doc-biblioref">3</a>–<a href="#ref-evaniew2015" role="doc-biblioref">13</a>)</span>. Most RCTs, including those considered to be of a robust nature, have now been labelled as “fragile” by this approach.</p>
+<p>The fragility index certainly has superficial appeal as it feels intuitive. However, I will demonstrate empirically with “in-silico” simulation that it is a simple transformation of the study’s p value. Thus, the fragility index cannot comment upon the validity of an RCT as no new information has been learnt. The fragility index beguiles the reader into mistrusting the results of an otherwise well conducted study. In this instance, we should ignore intuition, and instead rely upon the rigorous statistical frameworks that already have a rich history of reliably discriminating signal from noise.</p>
+<p>RCTs are powered a priori to detect a minimum clinically important difference (MCID); the smallest effect size that would be clinically meaningful. This power calculation specifies the minimum number of patients to be recruited so that if a true effect exists (greater than or equal to the MCID), it will produce a “significant” result with a p value below the alpha boundary (typically set at 0.05) at a known frequency (typically 80-90%). Over-recruitment exposes more patients to potential harm and requires more resources and time.</p>
+<p>The p value is a hypothetical frequency probability in that its properties are guaranteed in the long run over an infinite number of imagined future trials. In practice, only a single RCT can be performed, and a single p value observed. I performed computer simulations of parallel arm RCTs to observe the long running behaviour of the p value and fragility index. Nine scenarios were examined: a true absolute risk reduction (ARR) in mortality of 15%, 10% and 5%, each powered at 70%, 80% and 90%. Control group mortality was fixed at 30%. The numbers of patients required for each combination of ARR and power ranged from 190 (15% ARR at 70% power) to 3,346 (5% ARR at 90% power). Each scenario was simulated 1,000 times. Simulations were conducted in R <span class="citation" data-cites="R-base">(<a href="#ref-R-base" role="doc-biblioref">14</a>)</span> with code published in the public domain <span class="citation" data-cites="palmer2019a">(<a href="#ref-palmer2019a" role="doc-biblioref">15</a>)</span>.</p>
+<p>Figure 2 shows the distribution of the fragility index for each scenario. For a given effect size, the fragility index increases as the study power (and hence sample size) is increased. Likewise, for a given power, the fragility index increases as the effect size decreases (and hence sample size increases). Crucially, all the simulations are equally valid since the underlying data generating mechanism has been controlled. The fragility index is thus an expression of the study characteristics, and not of validity.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./figure2.png" class="img-fluid figure-img" width="864"></p>
+<figcaption><em>Box and Whisker plots demonstrating the distribution of fragility index over a range of possible study scenarios. Each facet details 1000 realisations of the simulation. Levels of absolute risk reduction and power are organised by column and row respectively.</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure 3 shows the clear relationship between the fragility index and the p value. The fragility index can be regarded as a transformation of the p value, with the shape of the relationship determined by the number of participants, the observed treatment effect and control group mortality.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./figure3.png" class="img-fluid figure-img" width="864"></p>
+<figcaption><em>Relationship between p value and fragility index stratified by absolute risk reduction.</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>I found a near-perfect relationship (R<sup>2</sup> = 0.99) between the fragility index and study p value (log transformed), sample size, observed treatment effect and observed control group mortality (figure 4). Elements of this relationship have previously been recognised <span class="citation" data-cites="carter2016">(<a href="#ref-carter2016" role="doc-biblioref">16</a>)</span>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./figure4.png" class="img-fluid figure-img" width="864"></p>
+<figcaption><em>Relationship between predicted fragility index and calculated fragility index. The predicted fragililty is a function of the log transformed p value, number of study participants, observed treatment effect and control group mortality.</em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Thus, the fragility index is an encapsulation of these study parameters into a single figure. RCTs with identical p values (for example 0.04) will differ in their fragility index only due to the difference in these observed study characteristics.</p>
+<p>There has been a long-standing tension between statistical analysis and the need to inform policy. The former aims to describe an observed effect in terms of uncertainty, whereas policy (such as “should I administer an antibiotic”) is necessarily binary, i.e.&nbsp;to act or not. Ultimately, a line must be drawn where evidence is strong enough to prompt action. That strength of evidence is commonly—though completely arbitrarily—set at a p value of 0.05. The fragility index begs us to entertain a secondary decision boundary. At what fragility index is a study now deemed to be no longer fragile? 5, 10, 500? As demonstrated above, this is simply a request for greater power to provide more evidence for the study question. In RCTs, the optimal study size for a given effect size has already been determined a priori. The Neyman-Pearson Lemma (a mathematical proof) demonstrates that any secondary decision boundary is necessarily less optimal than the original <span class="citation" data-cites="rice2014">(<a href="#ref-rice2014" role="doc-biblioref">17</a>)</span>.</p>
+<p>The impact of the fragility index has a lasting negative effect beyond its well-intended use. A well conducted and robust study labelled as “fragile” is now interpreted with unreasonable scepticism. The emotional loading inherent in the term “fragility” does a disservice to clinicians, scientists and patients who opted to participate in research.</p>
+<p>In the context of RCTs, where power is set a priori, the fragility index is an unhelpful metric that casts robust findings into disrepute. A growing number of position papers are now proposing the use of the fragility index to be published alongside RCTs <span class="citation" data-cites="walsh2014 tignanelli2019 narayan2018 evaniew2015">(<a href="#ref-walsh2014" role="doc-biblioref">1</a>, <a href="#ref-tignanelli2019" role="doc-biblioref">6</a>, <a href="#ref-narayan2018" role="doc-biblioref">8</a>, <a href="#ref-evaniew2015" role="doc-biblioref">13</a>)</span>. This position should be respectfully challenged as a misinterpretation of statistical inference. The fragility index represents a danger as to how good quality RCTs are interpreted. It serves only to add unnecessary scepticism to legitimate results, and potentially undermines the scientific process. Uncertainty in science should be embraced, but the debate should be directed toward where optimal decision boundaries exist, and not to re-imaginings of the p value.</p>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Many thanks to Giampiero Marra and Mervyn Singer (who provided valuable feedback to shape the first draft of this editorial), and Steve Harris, David Palmer, Dave Brealey, Clare Black and Ben Post.</p>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-walsh2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Walsh M, Srinathan SK, McAuley DF, Mrkobrada M, Levine O, Ribic C, Molnar AO, Dattani ND, Burke A, Guyatt G, <em>et al.</em> <a href="https://doi.org/10.1016/j.jclinepi.2013.10.019">The statistical significance of randomized controlled trial results is frequently fragile: A case for a <span>Fragility Index</span></a>. <em>Journal of Clinical Epidemiology</em> 2014;67:622–628.</div>
+</div>
+<div id="ref-agresti2002" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Agresti A. <em>Categorical <span>Data Analysis</span></em>. <span>Hoboken, NJ, USA</span>: <span>John Wiley &amp; Sons, Inc.</span>; 2002. doi:<a href="https://doi.org/10.1002/0471249688">10.1002/0471249688</a>.</div>
+</div>
+<div id="ref-ridgeon2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Ridgeon EE, Young PJ, Bellomo R, Mucchetti M, Lembo R, Landoni G. <a href="https://doi.org/10.1097/CCM.0000000000001670">The <span>Fragility Index</span> in <span>Multicenter Randomized Controlled Critical Care Trials</span></a>. <em>Critical Care Medicine</em> 2016;44:1278–1284.</div>
+</div>
+<div id="ref-mazzinari2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Mazzinari G, Ball L, Serpa Neto A, Errando CL, Dondorp AM, Bos LD, Gama de Abreu M, Pelosi P, Schultz MJ. <a href="https://doi.org/10.1016/j.bja.2018.01.012">The fragility of statistically significant findings in randomised controlled anaesthesiology trials: Systematic review of the medical literature</a>. <em>British Journal of Anaesthesia</em> 2018;120:935–941.</div>
+</div>
+<div id="ref-bertaggia2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Bertaggia L, Baiardo Redaelli M, Lembo R, Sartini C, Cuffaro R, Corrao F, Zangrillo A, Landoni G, Bellomo R. <a href="https://doi.org/10.1111/anae.14656">The <span>Fragility Index</span> in peri-operative randomised trials that reported significant mortality effects in adults</a>. <em>Anaesthesia</em> 2019;74:1057–1060.</div>
+</div>
+<div id="ref-tignanelli2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Tignanelli CJ, Napolitano LM. <a href="https://doi.org/10.1001/jamasurg.2018.4318">The <span>Fragility Index</span> in <span>Randomized Clinical Trials</span> as a <span>Means</span> of <span>Optimizing Patient Care</span></a>. <em>JAMA Surgery</em> 2019;154:74.</div>
+</div>
+<div id="ref-shen2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Shen C, Shamsudeen I, Farrokhyar F, Sabri K. <a href="https://doi.org/10.1016/j.ophtha.2017.11.015">Fragility of <span>Results</span> in <span>Ophthalmology Randomized Controlled Trials</span></a>. <em>Ophthalmology</em> 2018;125:642–648.</div>
+</div>
+<div id="ref-narayan2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Narayan VM, Gandhi S, Chrouser K, Evaniew N, Dahm P. <a href="https://doi.org/10.1111/bju.14210">The fragility of statistically significant findings from randomised controlled trials in the urological literature</a>. <em>BJU International</em> 2018;122:160–166.</div>
+</div>
+<div id="ref-noel2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Noel CW, McMullen C, Yao C, Monteiro E, Goldstein DP, Eskander A, de Almeida JR. <a href="https://doi.org/10.1002/lary.27183">The fragility of statistically significant findings from randomized trials in head and neck surgery: <span>Fragility</span> of <span>RCT Findings</span> in <span>Head</span> &amp; <span>Neck Surgery</span></a>. <em>The Laryngoscope</em> 2018;128:2094–2100.</div>
+</div>
+<div id="ref-khan2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Khan M, Evaniew N, Gichuru M, Habib A, Ayeni OR, Bedi A, Walsh M, Devereaux PJ, Bhandari M. <a href="https://doi.org/10.1177/0363546516674469">The <span>Fragility</span> of <span>Statistically Significant Findings From Randomized Trials</span> in <span>Sports Surgery</span>: <span>A Systematic Survey</span></a>. <em>The American Journal of Sports Medicine</em> 2017;45:2164–2170.</div>
+</div>
+<div id="ref-shochet2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Shochet LR, Kerr PG, Polkinghorne KR. <a href="https://doi.org/10.1016/j.kint.2017.05.011">The fragility of significant results underscores the need of larger randomized controlled trials in nephrology</a>. <em>Kidney International</em> 2017;92:1469–1475.</div>
+</div>
+<div id="ref-docherty2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Docherty KF, Campbell RT, Jhund PS, Petrie MC, McMurray JJV. How robust are clinical trials in heart failure? <em>European Heart Journal</em> 2016;ehw427.doi:<a href="https://doi.org/10.1093/eurheartj/ehw427">10.1093/eurheartj/ehw427</a>.</div>
+</div>
+<div id="ref-evaniew2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Evaniew N, Files C, Smith C, Bhandari M, Ghert M, Walsh M, Devereaux PJ, Guyatt G. <a href="https://doi.org/10.1016/j.spinee.2015.06.004">The fragility of statistically significant findings from randomized trials in spine surgery: A systematic survey</a>. <em>The Spine Journal</em> 2015;15:2188–2197.</div>
+</div>
+<div id="ref-R-base" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">R Core Team. <em>R: A language and environment for statistical computing</em>. Vienna, Austria: R Foundation for Statistical Computing; 2020. at &lt;<a href="https://www.R-project.org/">https://www.R-project.org/</a>&gt;.</div>
+</div>
+<div id="ref-palmer2019a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">Palmer E. <span>DocEd</span>/fragility-index: <span>Fragility Index Simulation</span>. <em>Zenodo</em> 2019;doi:<a href="https://doi.org/10.5281/zenodo.3514969">10.5281/zenodo.3514969</a>.</div>
+</div>
+<div id="ref-carter2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">Carter RE, McKie PM, Storlie CB. The <span>Fragility Index</span>: A <span><em>P</em></span> -value in sheep’s clothing? <em>European Heart Journal</em> 2016;ehw495.doi:<a href="https://doi.org/10.1093/eurheartj/ehw495">10.1093/eurheartj/ehw495</a>.</div>
+</div>
+<div id="ref-rice2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Rice JA. <em>Mathematical statistics and data analysis</em>. <span>New Delhi</span>: <span>Cengage Learning/Brooks/Cole</span>; 2014. </div>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

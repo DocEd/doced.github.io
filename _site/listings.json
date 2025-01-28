@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/presentations.html",
+    "items": [
+      "/presentations/2025-01-06-CAPE-COD/index.html",
+      "/presentations/2024-10-01-sepsis-hysteria/index.html",
+      "/presentations/2025-01-27-sepsis-hysteria-part-ii/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025-01-11-cape-cod/index.html",
+      "/posts/2024-10-01-sepsis-hysteria/index.html",
+      "/posts/2022-07-29-fragility-index/index.html"
+    ]
+  }
+]

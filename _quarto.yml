@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ed Palmer"
+  navbar:
+    backgroud: primary
+    search: true
+    left:
+      - text: About
+        href: index.qmd
+      - text: Posts
+        href: posts.qmd
+      - text: Presentations
+        href: presentations.qmd
+    tools:
+      - text: "BS"
+        href: https://bsky.app/profile/doced.bsky.social
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
