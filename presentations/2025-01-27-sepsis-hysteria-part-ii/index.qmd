@@ -169,7 +169,7 @@ bibliography:
 
 ::::
 
-# Is it sepsis?
+# Is it sepsis?^[Disclaimer: cases are fictional but inspired by real cases.]
 
 ## Is it sepsis?
 
@@ -256,7 +256,7 @@ VBG: Lactate 0.8
 
 ---
 
-![Source control meme](source-control-meme.png){#fig-meme}
+![](source-control-meme.png)
 
 ## Practical Advice
 
