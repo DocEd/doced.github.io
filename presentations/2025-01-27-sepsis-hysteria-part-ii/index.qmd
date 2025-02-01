@@ -16,6 +16,7 @@ editor_options:
 csl: ./standard.csl
 bibliography:
   - ./sepsis-bib.bib
+description: "Intended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void."
 ---
 
 ## Part 1...

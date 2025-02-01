@@ -16,6 +16,7 @@ categories:
 editor_options: 
   chunk_output_type: console
 fig-cap-location: margin
+description: "A critique of the fragility index, where I argue that it is merely a transformation of the p-value and thus does not provide additional insight into the validity of randomized controlled trials. Through simulations, I demonstrate that the fragility index reflects study characteristics like effect size and power, rather than the robustness of the study's findings."
 ---
 
 # Preamble
