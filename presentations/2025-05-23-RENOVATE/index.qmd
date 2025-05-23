@@ -1,0 +1,275 @@
+---
+title: "RENOVATE Trial"
+subtitle: "Or... an introduction to Bayesian learning"
+date: "2025-01-28"
+image: ./source-control-meme.png
+institute: "ST8 in Anaesthesia & Intensive Care Medicine"
+format:
+  revealjs:
+    theme: [default, ./styles.scss]
+smaller: true
+categories:
+  - "sepsis"
+  - "intensive care medicine"
+editor_options: 
+  chunk_output_type: console
+csl: ./standard.csl
+bibliography:
+  - ./sepsis-bib.bib
+description: "Intended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void."
+---
+
+## Learning Objectives / Housekeeping
+
+:::{.fragment}
+
+- Develop an intuition for Bayesian statistics.
+- Appreciate the differences between Bayesian and frequentist reasoning.
+- Unlearn a few bad statistical habits!\*
+
+:::
+:::{.fragment}
+
+- No maths. No formulas. Accessible to all.
+- Interactive. Feel free to interrupt.
+- No singling out, but volunteers welcome.
+- Some statistical concepts are so ingrained, keep an open mind.
+
+:::
+
+## {background-image="./probability.png"}
+
+## Let's Challenge Our Assumptions
+
+A double blind multi-centre randomised controlled trial investigated the effect of a steroid combination in septic shock on 90-day mortality. 
+90-day mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).
+
+What is the correct interpretation of this p value?
+
+A double blind multi-centre randomised controlled trial investigated the effect of steroids in septic shock on 90-day mortality. 
+The relative risk of 90-day mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99).
+What is the correct interpretation of this 95% confidence interval?
+
+## My Prediction
+
+- These are hard questions.
+- Likely that the correct answer will not be well identified.
+
+- These concepts come from "Frequentist statistics".
+- Bayesian statistics is conceptualises probabilities differently.
+
+## Background
+
+- Number of different approaches to managing ARF
+- Pharmacological:
+  - bronchodilators
+  - antibiotics
+  - ..
+  - Oxygen
+- Non-pharmacological
+  - Positioning
+  - Sputum clearance
+  - Mechanical support: IMV, NIV/CPAP, HFNO
+
+---
+
+![](./treatments.png)
+---
+
+## Background
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Non-invasive Ventilation
+
+  - Delivers a pressure differential
+  - Can titrate O2 occording to needs
+  - Augments minute volume
+  - Applies PEEP
+  - Limits interventions, often poorly tolerated
+  - Need breaks to eat etc.
+:::
+
+::: {.column width="50%"}
+High Flow Nasal Oxygen
+
+  - Provides high inspiratory flow in excess of peak inspiratory flow
+  - Bulk flow reduces deadspace
+  - Comfortable; patients wear it for longer.
+  - Heated and humidified
+  - ?PEEP; skeptical
+:::
+
+::::
+
+## Background
+
+- Useful tools when used correctly.
+- Dynamic evidence landscape
+- Infective aetiologies and NIV?
+- RECOVERY-RS
+- FLORALI
+- HERNANDEZ
+
+---
+
+![](trial.png)
+
+---
+
+### Population
+
+- Inclusion Criteria:
+  - Aged $\geq$18 y/o admitted to hospital (ED/ICU/Wards) with ARF
+  - Spo2 <90% or PaO2 < 7.9 kPa RA
+  - Signs of increased WOB or tachypnoea >25 bpm
+
+- Exclusion Criteria:
+  - Urgent need for endotracheal intubation
+  - Prolonged respiratory pauses  
+  - Cardiorespiratory arrest  
+  - GCS $\leq$ 12  
+  - Heart rate < 50 bpm with decreased level of consciousness
+  - Arterial blood pH < 7.15
+  - Haemodynamic instability 
+  - Contraindication to NIV (vomiting, secretions, GCS < 12, pneumothorax)
+  - Do not intubate order
+  - NIV use in ACPO prior to randomisation
+
+## Population
+
+1. Nonimmunocompromised ARF
+2. Immunocompromised ARF
+3. Acute Cardiogenic Pulmonary Oedema (ACPO)
+4. COPD
+5. COVID-19
+
+## Intervention
+
+- HFNO
+  - Airvo-2, Fisher & Paykel Healthcare
+  - Flow:
+    - 30L/min in COPD, 45L/min otherwise
+    - Titrated up to 60L/min as tolerated
+  - FiO2:
+    - Started at 0.5
+    - COPD: titrated for SpO2 88-92% 
+    - Other groups: 92-98%
+
+NIV rescue therapy was allowed for COPD and ACPO only.
+
+## Control
+
+- NIV (face mask)
+  - Pressure:
+    - COPD: IPAP 12-16 cmH2O, EPAP 4 cmH2O
+    - Other groups: IPAP 12-14 cmH2O, EPAP 8cmH2O
+    - Maximum IPAP 20 cmH2O EPAP of 12cmH2O
+  - Tidal volume:
+    - 6-9 ml/Kg\* of ideal body weight
+  - FiO2: as for intervention
+
+24hr use of NIV encouraged.
+
+## Outcome
+
+- Primary: Endotracheal intubation (or death) within 7 days of randomisation 
+- Secondary:
+  - 28-day mortality 
+  - 90-day mortality 
+  - Mechanical ventilation-free days at 28 days 
+  - ICU-free days at 28 days
+- Tertiary:
+  - Hospital LOS within 90 days
+  - ICU LOS within 90 days
+  - Vasopressor-free days within 28 days
+  - The proportion of patients who received a do-not-intubate order within 7 days after randomisation
+
+## Key Methods
+
+- Non-inferiority unblinded bayesian adaptive randomised controlled trial.
+
+- 5 distinct groups.
+- "Adaptive"; dynamic borrowing.
+- 1:1 randomisation, permuted block size, allocation concealment.
+- Interim analyses: futility, non-inferiority, or superiority.
+- Composite outcome.
+
+## Key Methods
+
+- **Non-inferiority** unblinded **bayesian** adaptive randomised controlled trial.
+
+- **5 distinct groups**.
+- "Adaptive"; **dynamic borrowing**.
+- 1:1 randomisation, permuted block size, allocation concealment.
+- Interim analyses: futility, non-inferiority, or superiority.
+- Composite outcome.
+
+## Non-inferiority Trial
+
+- Most RCTs are "superiority" trials; is one treatment "better" than the other?
+
+- Is this always necessary?
+- Is one treatment less toxic or less expensive?
+- One can be "better" if clinical efficacy the same.
+
+- How do you *prove* that two treatments are the same?
+- Can anyone recognise the issue?
+
+---
+
+![](oxy-action.jpeg)
+
+---
+
+![](./non-inferior-1.png)
+
+---
+
+![](./non-inferior-2.png)
+---
+
+![](./non-inferior-3.png)
+---
+
+![](./non-inferior-overview.png)
+
+## Bayesian
+
+Population: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock.
+Intervention: “Vaso-pushin”™; 5 patients
+Control: Standard care; 5 patients
+Outcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55. 80% power at 0.05 alpha threshold.
+
+## Non-inferiority Trial
+
+- The standard should be against the best practice standard? Does that hold true for ACPO
+
+## Borrowing
+
+- Let's conduct a thought experiment
+- Consider a placebo RCT in CAP conducted in 2024 and another in 2025
+- How might information transfer
+- Could we include the controls of the 2024 study as "controls" in the 2025 study?
+- Why might we want to do this?
+
+“If the historical information differs substantially from the concurrent, Bayesian methods may borrow strength from a biased source, leading to an inflated Type I error rate, as well as the possibility of needing to run a longer, more expensive trial in order to overcome the incommensurate prior data” ([Lewis et al., 2019, p. 2](zotero://select/library/items/LFTKEEA4)) ([pdf](zotero://open-pdf/library/items/2NTHEE8X?page=2&annotation=9GUVNL7Z))
+
+## Weaknessess
+
+- Late (but necessary) inclusion of COVID-19 to trial protocol
+- Modification of trial protocol to include death as composite outcome
+- Very small numbers for COPD
+- Over borrowing from dissimilar groups; failed sensitivity analysis
+- High cross over from HFNO to NIV in COPD
+
+## Take Aways
+
+- Reasurring and has equipoise for ARF
+- I would still use NIV first line in COPD, and CPAP in ACPO
+
+## Other Links
+
+- Bottom Line.
+- Ed and Todd podcast.

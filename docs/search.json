@@ -4,7 +4,182 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nRENOVATE Trial\n\n\nOr… an introduction to Bayesian learning\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#learning-objectives-housekeeping",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#learning-objectives-housekeeping",
+    "title": "RENOVATE Trial",
+    "section": "Learning Objectives / Housekeeping",
+    "text": "Learning Objectives / Housekeeping\n\n\nDevelop an intuition for Bayesian statistics.\nAppreciate the differences between Bayesian and frequentist reasoning.\nUnlearn a few bad statistical habits!*\n\n\n\n\nNo maths. No formulas. Accessible to all.\nInteractive. Feel free to interrupt.\nNo singling out, but volunteers welcome.\nSome statistical concepts are so ingrained, keep an open mind."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions",
+    "title": "RENOVATE Trial",
+    "section": "Let’s Challenge Our Assumptions",
+    "text": "Let’s Challenge Our Assumptions\nA double blind multi-centre randomised controlled trial investigated the effect of a steroid combination in septic shock on 90-day mortality. 90-day mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).\nWhat is the correct interpretation of this p value?\nA double blind multi-centre randomised controlled trial investigated the effect of steroids in septic shock on 90-day mortality. The relative risk of 90-day mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99). What is the correct interpretation of this 95% confidence interval?"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#my-prediction",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#my-prediction",
+    "title": "RENOVATE Trial",
+    "section": "My Prediction",
+    "text": "My Prediction\n\nThese are hard questions.\nLikely that the correct answer will not be well identified.\nThese concepts come from “Frequentist statistics”.\nBayesian statistics is conceptualises probabilities differently."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#background",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#background",
+    "title": "RENOVATE Trial",
+    "section": "Background",
+    "text": "Background\n\nNumber of different approaches to managing ARF\nPharmacological:\n\nbronchodilators\nantibiotics\n..\nOxygen\n\nNon-pharmacological\n\nPositioning\nSputum clearance\nMechanical support: IMV, NIV/CPAP, HFNO"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#background-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#background-1",
+    "title": "RENOVATE Trial",
+    "section": "Background",
+    "text": "Background\n\n\nNon-invasive Ventilation\n\nDelivers a pressure differential\nCan titrate O2 occording to needs\nAugments minute volume\nApplies PEEP\nLimits interventions, often poorly tolerated\nNeed breaks to eat etc.\n\n\nHigh Flow Nasal Oxygen\n\nProvides high inspiratory flow in excess of peak inspiratory flow\nBulk flow reduces deadspace\nComfortable; patients wear it for longer.\nHeated and humidified\n?PEEP; skeptical"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#background-2",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#background-2",
+    "title": "RENOVATE Trial",
+    "section": "Background",
+    "text": "Background\n\nUseful tools when used correctly.\nDynamic evidence landscape\nInfective aetiologies and NIV?\nRECOVERY-RS\nFLORALI\nHERNANDEZ"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#population-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#population-1",
+    "title": "RENOVATE Trial",
+    "section": "Population",
+    "text": "Population\n\nNonimmunocompromised ARF\nImmunocompromised ARF\nAcute Cardiogenic Pulmonary Oedema (ACPO)\nCOPD\nCOVID-19"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#intervention",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#intervention",
+    "title": "RENOVATE Trial",
+    "section": "Intervention",
+    "text": "Intervention\n\nHFNO\n\nAirvo-2, Fisher & Paykel Healthcare\nFlow:\n\n30L/min in COPD, 45L/min otherwise\nTitrated up to 60L/min as tolerated\n\nFiO2:\n\nStarted at 0.5\nCOPD: titrated for SpO2 88-92%\nOther groups: 92-98%\n\n\n\nNIV rescue therapy was allowed for COPD and ACPO only."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#control",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#control",
+    "title": "RENOVATE Trial",
+    "section": "Control",
+    "text": "Control\n\nNIV (face mask)\n\nPressure:\n\nCOPD: IPAP 12-16 cmH2O, EPAP 4 cmH2O\nOther groups: IPAP 12-14 cmH2O, EPAP 8cmH2O\nMaximum IPAP 20 cmH2O EPAP of 12cmH2O\n\nTidal volume:\n\n6-9 ml/Kg* of ideal body weight\n\nFiO2: as for intervention\n\n\n24hr use of NIV encouraged."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#outcome",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#outcome",
+    "title": "RENOVATE Trial",
+    "section": "Outcome",
+    "text": "Outcome\n\nPrimary: Endotracheal intubation (or death) within 7 days of randomisation\nSecondary:\n\n28-day mortality\n90-day mortality\nMechanical ventilation-free days at 28 days\nICU-free days at 28 days\n\nTertiary:\n\nHospital LOS within 90 days\nICU LOS within 90 days\nVasopressor-free days within 28 days\nThe proportion of patients who received a do-not-intubate order within 7 days after randomisation"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#key-methods",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#key-methods",
+    "title": "RENOVATE Trial",
+    "section": "Key Methods",
+    "text": "Key Methods\n\nNon-inferiority unblinded bayesian adaptive randomised controlled trial.\n5 distinct groups.\n“Adaptive”; dynamic borrowing.\n1:1 randomisation, permuted block size, allocation concealment.\nInterim analyses: futility, non-inferiority, or superiority.\nComposite outcome."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#key-methods-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#key-methods-1",
+    "title": "RENOVATE Trial",
+    "section": "Key Methods",
+    "text": "Key Methods\n\nNon-inferiority unblinded bayesian adaptive randomised controlled trial.\n5 distinct groups.\n“Adaptive”; dynamic borrowing.\n1:1 randomisation, permuted block size, allocation concealment.\nInterim analyses: futility, non-inferiority, or superiority.\nComposite outcome."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial",
+    "title": "RENOVATE Trial",
+    "section": "Non-inferiority Trial",
+    "text": "Non-inferiority Trial\n\nMost RCTs are “superiority” trials; is one treatment “better” than the other?\nIs this always necessary?\nIs one treatment less toxic or less expensive?\nOne can be “better” if clinical efficacy the same.\nHow do you prove that two treatments are the same?\nCan anyone recognise the issue?"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#bayesian",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#bayesian",
+    "title": "RENOVATE Trial",
+    "section": "Bayesian",
+    "text": "Bayesian\nPopulation: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock. Intervention: “Vaso-pushin”™; 5 patients Control: Standard care; 5 patients Outcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55. 80% power at 0.05 alpha threshold."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial-1",
+    "title": "RENOVATE Trial",
+    "section": "Non-inferiority Trial",
+    "text": "Non-inferiority Trial\n\nThe standard should be against the best practice standard? Does that hold true for ACPO"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#borrowing",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#borrowing",
+    "title": "RENOVATE Trial",
+    "section": "Borrowing",
+    "text": "Borrowing\n\nLet’s conduct a thought experiment\nConsider a placebo RCT in CAP conducted in 2024 and another in 2025\nHow might information transfer\nCould we include the controls of the 2024 study as “controls” in the 2025 study?\nWhy might we want to do this?\n\n“If the historical information differs substantially from the concurrent, Bayesian methods may borrow strength from a biased source, leading to an inflated Type I error rate, as well as the possibility of needing to run a longer, more expensive trial in order to overcome the incommensurate prior data” (Lewis et al., 2019, p. 2) (pdf)"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#weaknessess",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#weaknessess",
+    "title": "RENOVATE Trial",
+    "section": "Weaknessess",
+    "text": "Weaknessess\n\nLate (but necessary) inclusion of COVID-19 to trial protocol\nModification of trial protocol to include death as composite outcome\nVery small numbers for COPD\nOver borrowing from dissimilar groups; failed sensitivity analysis\nHigh cross over from HFNO to NIV in COPD"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#take-aways",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#take-aways",
+    "title": "RENOVATE Trial",
+    "section": "Take Aways",
+    "text": "Take Aways\n\nReasurring and has equipoise for ARF\nI would still use NIV first line in COPD, and CPAP in ACPO"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#other-links",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#other-links",
+    "title": "RENOVATE Trial",
+    "section": "Other Links",
+    "text": "Other Links\n\nBottom Line.\nEd and Todd podcast."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ed Palmer",
+    "section": "",
+    "text": "I am a doctor working in anaesthesia and intensive care medicine based in the UK in London. My research background is in the reuse of routinely collected longitudinal healthcare data for research. My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise. My PhD investigated the safe limits—including addressing intrinsic biases—of these resources. This ties with my clinical interest in sepsis, where my research took steps towards a better understanding “time zero” and the association between physiological trajectories and outcomes in sepsis.\nI often get asked to share my slides or notes on various topics ranging from journal clubs to medical education. So I have started to collate these resources here to share more directly. This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission. Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment. I welcome discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Ed Palmer",
+    "section": "Education",
+    "text": "Education\n\nFFICM. Fellow of The Faculty of Intensive Care Medicine, 2024\nThe Royal College of Anaesthetists, UK\nPh.D. in Intensive Care Medicine & Health Informatics, 2020\nUniversity College London, UK\nFRCA. Fellow of the Royal College of Anaesthetists, 2016\nThe Royal College of Anaesthetists, UK\nMBBS. Medicine, 2011\nKing’s College London, UK\nB.Sc. Imaging Sciences, 2008\nKing’s College London, UK"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Ed Palmer",
+    "section": "Interests",
+    "text": "Interests\n\nResearch methods\nTrials in Intensive Care Medicine\nStatistical literacy in medicine\nRunning"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "Ed Palmer",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFree as in freedom.↩︎"
+  },
+  {
+    "objectID": "posts/2022-07-29-fragility-index/index.html",
+    "href": "posts/2022-07-29-fragility-index/index.html",
+    "title": "Randomised Controlled Trials: Anything But Fragile",
+    "section": "",
+    "text": "I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is already known), and so I am posting it here. I hope this is of use to the medical community who currently use the fragility index."
+  },
+  {
+    "objectID": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
+    "href": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
+    "title": "Randomised Controlled Trials: Anything But Fragile",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMany thanks to Giampiero Marra and Mervyn Singer (who provided valuable feedback to shape the first draft of this editorial), and Steve Harris, David Palmer, Dave Brealey, Clare Black and Ben Post."
   },
   {
     "objectID": "presentations/2025-01-27-sepsis-hysteria-part-ii/index.html#part-1",
@@ -208,48 +383,6 @@
     "title": "Sepsis Hysteria: Part II",
     "section": "References",
     "text": "References\n\n\n\n\n1. Bone RC, Balk RA, Cerra FB, Dellinger RP, Fein AM, Knaus WA, Schein RMH, Sibbald WJ. Definitions for sepsis and organ failure and guidelines for the use of innovative therapies in sepsis. The ACCP/SCCM Consensus Conference Committee. American College of Chest Physicians/Society of Critical Care Medicine. Chest 1992;101:1644–55.\n\n\n2. Levy MM, Fink MP, Marshall JC, Abraham E, Angus DC, Cook D, Cohen J, Opal SM, Vincent J-L, Ramsay G, et al. 2001 SCCM/ESICM/ACCP/ATS/SIS International Sepsis Definitions Conference. Critical care medicine 2003;31:1250–1256.\n\n\n3. Singer M, Deutschman CS, Seymour C, Shankar-Hari M, Annane D, Bauer M, Bellomo R, Bernard GR, Chiche JD, Coopersmith CM, et al. The third international consensus definitions for sepsis and septic shock (sepsis-3). JAMA - Journal of the American Medical Association 2016;315:801–810.\n\n\n4. Evans L, Rhodes A, Alhazzani W, Antonelli M, Coopersmith CM, French C, Machado FR, Mcintyre L, Ostermann M, Prescott HC, et al. Surviving sepsis campaign: International guidelines for management of sepsis and septic shock 2021. Intensive Care Medicine 2021;47:1181–1247.\n\n\n5. Hernández G, Ospina-Tascón GA, Damiani LP, Estenssoro E, Dubin A, Hurtado J, Friedman G, Castro R, Alegría L, Teboul J-L, et al. Effect of a Resuscitation Strategy Targeting Peripheral Perfusion Status vs Serum Lactate Levels on 28-Day Mortality Among Patients With Septic Shock: The ANDROMEDA-SHOCK Randomized Clinical Trial. JAMA 2019;321:654."
-  },
-  {
-    "objectID": "posts/2022-07-29-fragility-index/index.html",
-    "href": "posts/2022-07-29-fragility-index/index.html",
-    "title": "Randomised Controlled Trials: Anything But Fragile",
-    "section": "",
-    "text": "I wrote this editorial some years ago in response to the deluge of reports that reappraise prior studies with the fragility index and the subsequent permeation of this method into the medical community. Sadly, I could not get the article picked up by a medical journal (most suggested a methods journal instead, where this information is already known), and so I am posting it here. I hope this is of use to the medical community who currently use the fragility index."
-  },
-  {
-    "objectID": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
-    "href": "posts/2022-07-29-fragility-index/index.html#acknowledgements",
-    "title": "Randomised Controlled Trials: Anything But Fragile",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nMany thanks to Giampiero Marra and Mervyn Singer (who provided valuable feedback to shape the first draft of this editorial), and Steve Harris, David Palmer, Dave Brealey, Clare Black and Ben Post."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ed Palmer",
-    "section": "",
-    "text": "I am a doctor working in anaesthesia and intensive care medicine based in the UK in London. My research background is in the reuse of routinely collected longitudinal healthcare data for research. My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise. My PhD investigated the safe limits—including addressing intrinsic biases—of these resources. This ties with my clinical interest in sepsis, where my research took steps towards a better understanding “time zero” and the association between physiological trajectories and outcomes in sepsis.\nI often get asked to share my slides or notes on various topics ranging from journal clubs to medical education. So I have started to collate these resources here to share more directly. This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission. Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment. I welcome discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Ed Palmer",
-    "section": "Education",
-    "text": "Education\n\nFFICM. Fellow of The Faculty of Intensive Care Medicine, 2024\nThe Royal College of Anaesthetists, UK\nPh.D. in Intensive Care Medicine & Health Informatics, 2020\nUniversity College London, UK\nFRCA. Fellow of the Royal College of Anaesthetists, 2016\nThe Royal College of Anaesthetists, UK\nMBBS. Medicine, 2011\nKing’s College London, UK\nB.Sc. Imaging Sciences, 2008\nKing’s College London, UK"
-  },
-  {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
-    "title": "Ed Palmer",
-    "section": "Interests",
-    "text": "Interests\n\nResearch methods\nTrials in Intensive Care Medicine\nStatistical literacy in medicine\nRunning"
-  },
-  {
-    "objectID": "index.html#footnotes",
-    "href": "index.html#footnotes",
-    "title": "Ed Palmer",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nFree as in freedom.↩︎"
   },
   {
     "objectID": "posts.html",
