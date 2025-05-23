@@ -394,3 +394,4 @@ NIV rescue therapy was allowed for COPD and ACPO only.
 
 - [Bottom line](https://www.thebottomline.org.uk/summaries/icm/renovate-high-flow-vs-niv/)
 - [Ed and Todd Podcast](https://icuedandtoddcast.buzzsprout.com/2116359/episodes/16529100-old-new-florali-and-renovate)
+- Slides availible at [doced.github.io](https://doced.github.io/)
