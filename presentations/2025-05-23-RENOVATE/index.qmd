@@ -9,14 +9,16 @@ format:
     theme: [default, ./styles.scss]
 smaller: true
 categories:
-  - "sepsis"
+  - "acute respiratory failure"
   - "intensive care medicine"
+  - "statistics"
+  - "bayesian"
 editor_options: 
   chunk_output_type: console
 csl: ./standard.csl
 bibliography:
   - ./sepsis-bib.bib
-description: "Intended audience: Hospital Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void."
+description: "Intended audience: Hospital clinicians. A soft introduction to non-inferiority trials, bayesian analysis and dynamic borrowing using the RENOVTE trial as an example paper."
 ---
 
 ## Learning Objectives / Housekeeping
@@ -386,3 +388,9 @@ NIV rescue therapy was allowed for COPD and ACPO only.
 - Reasurring and has equipoise for ARF.
 - Has challenged my assumptions for ACPO.
 - I would still use NIV first line in COPD, and CPAP in ACPO.
+- And what about yours...
+
+## Other resources
+
+- [Bottom line](https://www.thebottomline.org.uk/summaries/icm/renovate-high-flow-vs-niv/)
+- [Ed and Todd Podcast](https://icuedandtoddcast.buzzsprout.com/2116359/episodes/16529100-old-new-florali-and-renovate)

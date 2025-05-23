@@ -21,9 +21,9 @@ about:
 
 I am a doctor working in anaesthesia and intensive care medicine based in the UK in London.
 My research background is in the reuse of routinely collected longitudinal healthcare data for research.
-My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise.
+My interests are directed towards research goals that may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise.
 My PhD investigated the safe limits---including addressing intrinsic biases---of these resources.
-This ties with my clinical interest in sepsis, where my research took steps towards a better understanding "time zero" and the association between physiological trajectories and outcomes in sepsis.
+This ties with my clinical interest in sepsis, where my research took steps towards a better understanding of "time zero" and the association between physiological trajectories and outcomes in sepsis.
 
 I often get asked to share my slides or notes on various topics ranging from journal clubs to medical education.
 So I have started to collate these resources here to share more directly.

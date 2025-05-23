@@ -4,7 +4,7 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "RENOVATE Trial\n\n\nOr… an introduction to Bayesian learning\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Hospital Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nMay 23, 2025\n\n\nEd Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nSepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+    "text": "RENOVATE Trial\n\n\nOr… an introduction to Bayesian learning\n\n\n\nacute respiratory failure\n\n\nintensive care medicine\n\n\nstatistics\n\n\nbayesian\n\n\n\nIntended audience: Hospital clinicians. A soft introduction to non-inferiority trials, bayesian analysis and dynamic borrowing using the RENOVTE trial as an example paper.\n\n\n\n\n\nMay 23, 2025\n\n\nEd Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nSepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#learning-objectives-housekeeping",
@@ -186,14 +186,21 @@
     "href": "presentations/2025-05-23-RENOVATE/index.html#my-take-aways",
     "title": "RENOVATE Trial",
     "section": "My Take Aways",
-    "text": "My Take Aways\n\nYou can’t bayesian your way out of a bad idea.\nReasurring and has equipoise for ARF.\nHas challenged my assumptions for ACPO.\nI would still use NIV first line in COPD, and CPAP in ACPO."
+    "text": "My Take Aways\n\nYou can’t bayesian your way out of a bad idea.\nReasurring and has equipoise for ARF.\nHas challenged my assumptions for ACPO.\nI would still use NIV first line in COPD, and CPAP in ACPO.\nAnd what about yours…"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#other-resources",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#other-resources",
+    "title": "RENOVATE Trial",
+    "section": "Other resources",
+    "text": "Other resources\n\nBottom line\nEd and Todd Podcast"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ed Palmer",
     "section": "",
-    "text": "I am a doctor working in anaesthesia and intensive care medicine based in the UK in London. My research background is in the reuse of routinely collected longitudinal healthcare data for research. My interest is particularly where research goals may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise. My PhD investigated the safe limits—including addressing intrinsic biases—of these resources. This ties with my clinical interest in sepsis, where my research took steps towards a better understanding “time zero” and the association between physiological trajectories and outcomes in sepsis.\nI often get asked to share my slides or notes on various topics ranging from journal clubs to medical education. So I have started to collate these resources here to share more directly. This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission. Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment. I welcome discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
+    "text": "I am a doctor working in anaesthesia and intensive care medicine based in the UK in London. My research background is in the reuse of routinely collected longitudinal healthcare data for research. My interests are directed towards research goals that may be challenging to meet under traditional frameworks because anticipated effect sizes are very small, that it is too expensive to run a classical trial, or there are concerns over equipoise. My PhD investigated the safe limits—including addressing intrinsic biases—of these resources. This ties with my clinical interest in sepsis, where my research took steps towards a better understanding of “time zero” and the association between physiological trajectories and outcomes in sepsis.\nI often get asked to share my slides or notes on various topics ranging from journal clubs to medical education. So I have started to collate these resources here to share more directly. This is mostly aiming to be a collection of less formal work that would not necessitate a journal submission. Topics are likely to include those that I feel would benefit from being researched more deeply, being written down, and hence being open to criticism and comment. I welcome discussion of any of the ideas published here.\nAs a past fellow of the Software Sustainability Institute, I am a strong proponent of open data, reproducible research and free1 and open software. When I am not tinkering with ventilators or R, I try to spend as much time as possible with my wonderful partner and children."
   },
   {
     "objectID": "index.html#education",
