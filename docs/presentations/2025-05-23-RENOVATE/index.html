@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="Ed Palmer">
-  <meta name="dcterms.date" content="2025-01-28">
+  <meta name="dcterms.date" content="2025-05-23">
   <title>Ed Palmer – RENOVATE Trial</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -142,7 +142,7 @@
     </div>
 </div>
 
-  <p class="date">2025-01-28</p>
+  <p class="date">2025-05-23</p>
 </section>
 <section id="learning-objectives-housekeeping" class="slide level2">
 <h2>Learning Objectives / Housekeeping</h2>
@@ -150,12 +150,12 @@
 <ul>
 <li>Develop an intuition for Bayesian statistics.</li>
 <li>Appreciate the differences between Bayesian and frequentist reasoning.</li>
-<li>Unlearn a few bad statistical habits!*</li>
+<li>Unlearn a few bad statistical habits!</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li>No maths. No formulas. Accessible to all.</li>
+<li>No maths. No formulas*. Accessible to all.</li>
 <li>Interactive. Feel free to interrupt.</li>
 <li>No singling out, but volunteers welcome.</li>
 <li>Some statistical concepts are so ingrained, keep an open mind.</li>
@@ -167,17 +167,51 @@
 </section>
 <section id="lets-challenge-our-assumptions" class="slide level2">
 <h2>Let’s Challenge Our Assumptions</h2>
-<p>A double blind multi-centre randomised controlled trial investigated the effect of a steroid combination in septic shock on 90-day mortality. 90-day mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).</p>
-<p>What is the correct interpretation of this p value?</p>
-<p>A double blind multi-centre randomised controlled trial investigated the effect of steroids in septic shock on 90-day mortality. The relative risk of 90-day mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99). What is the correct interpretation of this 95% confidence interval?</p>
+<ul>
+<li>An RCT investigated the effect of steroids in septic shock on mortality.</li>
+<li>Mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).</li>
+<li>What is the correct interpretation of this p value?</li>
+</ul>
+</section>
+<section id="lets-challenge-our-assumptions-1" class="slide level2">
+<h2>Let’s Challenge Our Assumptions</h2>
+<ul>
+<li>An RCT investigated the effect of steroids in septic shock on mortality.</li>
+<li>The relative risk of mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99).</li>
+<li>What is the correct interpretation of this 95% confidence interval?</li>
+</ul>
 </section>
 <section id="my-prediction" class="slide level2">
 <h2>My Prediction</h2>
+<div class="fragment">
 <ul>
-<li><p>These are hard questions.</p></li>
-<li><p>Likely that the correct answer will not be well identified.</p></li>
-<li><p>These concepts come from “Frequentist statistics”.</p></li>
-<li><p>Bayesian statistics is conceptualises probabilities differently.</p></li>
+<li>No more will get the answers than would be expected by random chance.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>These are hard questions, but foundational.</li>
+<li>These concepts come from “Frequentist statistics”.</li>
+<li>Bayesian statistics conceptualises probabilities differently.</li>
+<li>Most frequentist statistics are interpreted incorrectly; already Bayesian?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>If you are confused. That’s ok.</li>
+</ul>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="./trial.png" class="r-stretch"></section>
+<section id="setting" class="slide level2">
+<h2>Setting</h2>
+<ul>
+<li>33 Brazilian hospitals</li>
+<li>Nov 2019 - Nov 2023</li>
+<li>HFNO vs NIV for ARF</li>
 </ul>
 </section>
 <section id="background" class="slide level2">
@@ -186,8 +220,8 @@
 <li>Number of different approaches to managing ARF</li>
 <li>Pharmacological:
 <ul>
-<li>bronchodilators</li>
-<li>antibiotics</li>
+<li>Bronchodilators</li>
+<li>Antibiotics</li>
 <li>..</li>
 <li>Oxygen</li>
 </ul></li>
@@ -199,25 +233,24 @@
 </ul></li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="./treatments.png" class="r-stretch"></section>
+<section id="section-1" class="slide level2" data-background-image="./treatments.png">
+<h2></h2>
+</section>
 <section id="background-1" class="slide level2">
 <h2>Background</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Non-invasive Ventilation</p>
+<p><em>Non-invasive Ventilation</em></p>
 <ul>
 <li>Delivers a pressure differential</li>
-<li>Can titrate O2 occording to needs</li>
+<li>Can titrate O2 occording to need</li>
 <li>Augments minute volume</li>
 <li>Applies PEEP</li>
 <li>Limits interventions, often poorly tolerated</li>
 <li>Need breaks to eat etc.</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p>High Flow Nasal Oxygen</p>
+<p><em>High Flow Nasal Oxygen</em></p>
 <ul>
 <li>Provides high inspiratory flow in excess of peak inspiratory flow</li>
 <li>Bulk flow reduces deadspace</li>
@@ -230,28 +263,28 @@
 <section id="background-2" class="slide level2">
 <h2>Background</h2>
 <ul>
-<li>Useful tools when used correctly.</li>
+<li>Both are useful tools when used correctly.</li>
 <li>Dynamic evidence landscape</li>
 <li>Infective aetiologies and NIV?</li>
-<li>RECOVERY-RS</li>
-<li>FLORALI</li>
-<li>HERNANDEZ</li>
+<li>RECOVERY-RS: CPAP</li>
+<li>FLORALI: HFNO</li>
+<li>HERNANDEZ: HFNO</li>
 </ul>
 </section>
-<section class="slide level2">
-
-
-<img data-src="trial.png" class="r-stretch"></section>
-<section class="slide level2">
-
-<h3 id="population">Population</h3>
+<section id="population" class="slide level2">
+<h2>Population</h2>
 <ul>
 <li>Inclusion Criteria:
 <ul>
-<li>Aged $$18 y/o admitted to hospital (ED/ICU/Wards) with ARF</li>
+<li>Aged <span class="math inline">\(\geq\)</span> 18 y/o admitted to hospital (ED/ICU/Wards) with ARF</li>
 <li>Spo2 &lt;90% or PaO2 &lt; 7.9 kPa RA</li>
 <li>Signs of increased WOB or tachypnoea &gt;25 bpm</li>
 </ul></li>
+</ul>
+</section>
+<section id="population-1" class="slide level2">
+<h2>Population</h2>
+<ul>
 <li>Exclusion Criteria:
 <ul>
 <li>Urgent need for endotracheal intubation</li>
@@ -270,7 +303,7 @@
 </ul></li>
 </ul>
 </section>
-<section id="population-1" class="slide level2">
+<section id="population-2" class="slide level2">
 <h2>Population</h2>
 <ol type="1">
 <li>Nonimmunocompromised ARF</li>
@@ -324,18 +357,19 @@
 <section id="outcome" class="slide level2">
 <h2>Outcome</h2>
 <ul>
-<li>Primary: Endotracheal intubation (or death) within 7 days of randomisation</li>
+<li>Primary: Endotracheal intubation (or death) within 7 days of randomisation
+<ul>
+<li>Criteria for intubation standardised</li>
+</ul></li>
 <li>Secondary:
 <ul>
-<li>28-day mortality</li>
-<li>90-day mortality</li>
+<li>28 + 90 day mortality</li>
 <li>Mechanical ventilation-free days at 28 days</li>
 <li>ICU-free days at 28 days</li>
 </ul></li>
 <li>Tertiary:
 <ul>
-<li>Hospital LOS within 90 days</li>
-<li>ICU LOS within 90 days</li>
+<li>ICU + Hospital LOS within 90 days</li>
 <li>Vasopressor-free days within 28 days</li>
 <li>The proportion of patients who received a do-not-intubate order within 7 days after randomisation</li>
 </ul></li>
@@ -356,8 +390,8 @@
 <h2>Key Methods</h2>
 <ul>
 <li><p><strong>Non-inferiority</strong> unblinded <strong>bayesian</strong> adaptive randomised controlled trial.</p></li>
-<li><p><strong>5 distinct groups</strong>.</p></li>
-<li><p>“Adaptive”; <strong>dynamic borrowing</strong>.</p></li>
+<li><p>5 distinct groups.</p></li>
+<li><p>“Adaptive”; dynamic <strong>borrowing</strong>.</p></li>
 <li><p>1:1 randomisation, permuted block size, allocation concealment.</p></li>
 <li><p>Interim analyses: futility, non-inferiority, or superiority.</p></li>
 <li><p>Composite outcome.</p></li>
@@ -365,14 +399,24 @@
 </section>
 <section id="non-inferiority-trial" class="slide level2">
 <h2>Non-inferiority Trial</h2>
+<div class="fragment">
 <ul>
-<li><p>Most RCTs are “superiority” trials; is one treatment “better” than the other?</p></li>
-<li><p>Is this always necessary?</p></li>
-<li><p>Is one treatment less toxic or less expensive?</p></li>
-<li><p>One can be “better” if clinical efficacy the same.</p></li>
-<li><p>How do you <em>prove</em> that two treatments are the same?</p></li>
-<li><p>Can anyone recognise the issue?</p></li>
+<li>Most RCTs are “superiority” trials; is one treatment “better” than the other?</li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Is this always necessary?</li>
+<li>Is one treatment less toxic or less expensive?</li>
+<li>One can be “better” if clinical efficacy the same.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>How do you <em>prove</em> that two treatments are the same?</li>
+<li>Can anyone recognise the issue?</li>
+</ul>
+</div>
 </section>
 <section class="slide level2">
 
@@ -390,57 +434,156 @@
 
 
 <img data-src="./non-inferior-3.png" class="r-stretch"></section>
+<section id="its-about-precision" class="slide level2">
+<h2>It’s About precision</h2>
+<ul>
+<li>Without enough data, all comparisons are non-inferior</li>
+</ul>
+</section>
 <section class="slide level2">
 
 
 <img data-src="./non-inferior-overview.png" class="r-stretch"></section>
-<section id="bayesian" class="slide level2">
-<h2>Bayesian</h2>
-<p>Population: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock. Intervention: “Vaso-pushin”™; 5 patients Control: Standard care; 5 patients Outcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55. 80% power at 0.05 alpha threshold.</p>
-</section>
-<section id="non-inferiority-trial-1" class="slide level2">
-<h2>Non-inferiority Trial</h2>
+<section id="lets-go-bayesian" class="slide level2">
+<h2>Let’s go Bayesian</h2>
+<div class="fragment">
 <ul>
-<li>The standard should be against the best practice standard? Does that hold true for ACPO</li>
+<li>A simulated trial</li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Population</strong>: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock.</li>
+<li><strong>Intervention</strong>: “Vaso-pushin”™; 5 patients</li>
+<li><strong>Control</strong>: Standard care; 5 patients</li>
+<li><strong>Outcome</strong>: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55.</li>
+</ul>
+</div>
+</section>
+<section id="section-2" class="slide level2" data-background-image="./bayesian-study-1.png">
+<h2></h2>
+</section>
+<section id="section-3" class="slide level2" data-background-image="./bayesian-study-2.png">
+<h2></h2>
+</section>
+<section id="section-4" class="slide level2" data-background-image="./bayesian-study-3.png">
+<h2></h2>
+</section>
+<section id="section-5" class="slide level2" data-background-image="./bayesian-study-4.png">
+<h2></h2>
+</section>
+<section id="section-6" class="slide level2" data-background-image="./bayesian-study-5.png">
+<h2></h2>
+</section>
+<section id="section-7" class="slide level2" data-background-image="./bayesian-study-6.png">
+<h2></h2>
 </section>
 <section id="borrowing" class="slide level2">
 <h2>Borrowing</h2>
+<div class="fragment">
 <ul>
 <li>Let’s conduct a thought experiment</li>
-<li>Consider a placebo RCT in CAP conducted in 2024 and another in 2025</li>
-<li>How might information transfer</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Consider an RCT in ARF conducted in 2024 and another in 2025.</li>
+<li>How might information transfer from one to the other?</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>Could we include the controls of the 2024 study as “controls” in the 2025 study?</li>
 <li>Why might we want to do this?</li>
 </ul>
-<p>“If the historical information differs substantially from the concurrent, Bayesian methods may borrow strength from a biased source, leading to an inflated Type I error rate, as well as the possibility of needing to run a longer, more expensive trial in order to overcome the incommensurate prior data” (<a href="zotero://select/library/items/LFTKEEA4">Lewis et al., 2019, p.&nbsp;2</a>) (<a href="zotero://open-pdf/library/items/2NTHEE8X?page=2&amp;annotation=9GUVNL7Z">pdf</a>)</p>
+</div>
+</section>
+<section id="section-8" class="slide level2" data-background-image="./prior-meme.png">
+<h2></h2>
+</section>
+<section id="borrowing-1" class="slide level2">
+<h2>Borrowing</h2>
+<ul>
+<li>Bayesian approach naturally allows for borrowing</li>
+<li>Caution must be exercised</li>
+<li>Are the groups really similar? Are they “exchangeable”?</li>
+<li>Increased precision</li>
+<li>But… results will gravitate towards the group mean</li>
+</ul>
+</section>
+<section>
+<section id="trial-results" class="title-slide slide level1 center">
+<h1>Trial Results</h1>
+
+</section>
+<section id="section-9" class="slide level2" data-background-image="./flow.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-10" class="slide level2" data-background-image="./table-1.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="stopping-criteria" class="slide level2">
+<h2>Stopping Criteria</h2>
+<ul>
+<li>April 2021 (1st interim); immunocompromised. <strong>Futility</strong>. n = 51</li>
+<li>March 2023 (5th interum); COVID-19, <strong>non-inferiority</strong>. n = 895</li>
+<li>Oct 2023 (6th interum); Non-immunocomprimise, <strong>non-inferiority</strong>. n = 501</li>
+<li>Oct 2023 (6th interum); Cardiogenic pulmonary oedema, <strong>non-inferiority</strong>. n = 274</li>
+<li>Final analyis: COPD. n = 79</li>
+</ul>
+</section>
+<section id="section-11" class="slide level2" data-background-image="./primary.png" data-background-size="contain">
+<h2></h2>
+</section>
+<section id="section-12" class="slide level2" data-background-image="./sensitivity.png" data-background-size="contain">
+<h2></h2>
+</section></section>
+<section>
+<section id="conclusions" class="title-slide slide level1 center">
+<h1>Conclusions</h1>
+
+</section>
+<section id="conclusions-1" class="slide level2">
+<h2>Conclusions</h2>
+<ul>
+<li>Met pre-specified criteria for non-inferiority for 4 of 5 cohorts</li>
+<li>But… results not robust to strong modelling assumptions (borrowing)</li>
+<li>Need further study: COPD, immunocompromised and ACPO</li>
+</ul>
+</section>
+<section id="stengths" class="slide level2">
+<h2>Stengths</h2>
+<ul>
+<li>Large, multi-centred RCT.</li>
+<li>Bayesian; transparent.</li>
+<li>Auhtors conclusions are well made.</li>
+<li>Broad generalisability for the patients I see.</li>
+<li>Others…</li>
+</ul>
 </section>
 <section id="weaknessess" class="slide level2">
 <h2>Weaknessess</h2>
 <ul>
-<li>Late (but necessary) inclusion of COVID-19 to trial protocol</li>
-<li>Modification of trial protocol to include death as composite outcome</li>
-<li>Very small numbers for COPD</li>
-<li>Over borrowing from dissimilar groups; failed sensitivity analysis</li>
-<li>High cross over from HFNO to NIV in COPD</li>
+<li>Late (but necessary) inclusion of COVID-19 to trial protocol.</li>
+<li>Modification of trial protocol to include death as composite outcome.</li>
+<li>Very small numbers for COPD ?selection bias.</li>
+<li>Over/inappropriate borrowing from dissimilar groups; failed sensitivity analysis.</li>
+<li>Criteria for futility too harsh.</li>
+<li>High cross over from HFNO to NIV in COPD.</li>
+<li>Others…</li>
 </ul>
 </section>
-<section id="take-aways" class="slide level2">
-<h2>Take Aways</h2>
+<section id="my-take-aways" class="slide level2">
+<h2>My Take Aways</h2>
 <ul>
-<li>Reasurring and has equipoise for ARF</li>
-<li>I would still use NIV first line in COPD, and CPAP in ACPO</li>
-</ul>
-</section>
-<section id="other-links" class="slide level2">
-<h2>Other Links</h2>
-<ul>
-<li>Bottom Line.</li>
-<li>Ed and Todd podcast.</li>
+<li>You can’t bayesian your way out of a bad idea.</li>
+<li>Reasurring and has equipoise for ARF.</li>
+<li>Has challenged my assumptions for ACPO.</li>
+<li>I would still use NIV first line in COPD, and CPAP in ACPO.</li>
 </ul>
 
 
-</section>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">

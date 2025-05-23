@@ -1,8 +1,8 @@
 ---
 title: "RENOVATE Trial"
 subtitle: "Or... an introduction to Bayesian learning"
-date: "2025-01-28"
-image: ./source-control-meme.png
+date: "2025-05-23"
+image: ./preview.png
 institute: "ST8 in Anaesthesia & Intensive Care Medicine"
 format:
   revealjs:
@@ -16,7 +16,7 @@ editor_options:
 csl: ./standard.csl
 bibliography:
   - ./sepsis-bib.bib
-description: "Intended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void."
+description: "Intended audience: Hospital Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void."
 ---
 
 ## Learning Objectives / Housekeeping
@@ -25,12 +25,12 @@ description: "Intended audience: Foundation Doctors. Part II of series that conc
 
 - Develop an intuition for Bayesian statistics.
 - Appreciate the differences between Bayesian and frequentist reasoning.
-- Unlearn a few bad statistical habits!\*
+- Unlearn a few bad statistical habits!
 
 :::
 :::{.fragment}
 
-- No maths. No formulas. Accessible to all.
+- No maths. No formulas\*. Accessible to all.
 - Interactive. Feel free to interrupt.
 - No singling out, but volunteers welcome.
 - Some statistical concepts are so ingrained, keep an open mind.
@@ -41,29 +41,54 @@ description: "Intended audience: Foundation Doctors. Part II of series that conc
 
 ## Let's Challenge Our Assumptions
 
-A double blind multi-centre randomised controlled trial investigated the effect of a steroid combination in septic shock on 90-day mortality. 
-90-day mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).
+- An RCT investigated the effect of steroids in septic shock on mortality.
+- Mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).
+- What is the correct interpretation of this p value?
 
-What is the correct interpretation of this p value?
+## Let's Challenge Our Assumptions
 
-A double blind multi-centre randomised controlled trial investigated the effect of steroids in septic shock on 90-day mortality. 
-The relative risk of 90-day mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99).
-What is the correct interpretation of this 95% confidence interval?
+- An RCT investigated the effect of steroids in septic shock on mortality.
+- The relative risk of mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99).
+- What is the correct interpretation of this 95% confidence interval?
 
 ## My Prediction
 
-- These are hard questions.
-- Likely that the correct answer will not be well identified.
+:::{.fragment}
 
+- No more will get the answers than would be expected by random chance.
+
+:::
+:::{.fragment}
+
+- These are hard questions, but foundational.
 - These concepts come from "Frequentist statistics".
-- Bayesian statistics is conceptualises probabilities differently.
+- Bayesian statistics conceptualises probabilities differently.
+- Most frequentist statistics are interpreted incorrectly; already Bayesian?
+
+:::
+:::{.fragment}
+
+- If you are confused. That's ok.
+
+:::
+
+---
+
+![](./trial.png)
+---
+
+## Setting
+
+- 33 Brazilian hospitals
+- Nov 2019 - Nov 2023
+- HFNO vs NIV for ARF
 
 ## Background
 
 - Number of different approaches to managing ARF
 - Pharmacological:
-  - bronchodilators
-  - antibiotics
+  - Bronchodilators
+  - Antibiotics
   - ..
   - Oxygen
 - Non-pharmacological
@@ -73,7 +98,8 @@ What is the correct interpretation of this 95% confidence interval?
 
 ---
 
-![](./treatments.png)
+## {background-image="./treatments.png"}
+
 ---
 
 ## Background
@@ -81,10 +107,10 @@ What is the correct interpretation of this 95% confidence interval?
 :::: {.columns}
 
 ::: {.column width="50%"}
-Non-invasive Ventilation
+*Non-invasive Ventilation*
 
   - Delivers a pressure differential
-  - Can titrate O2 occording to needs
+  - Can titrate O2 occording to need
   - Augments minute volume
   - Applies PEEP
   - Limits interventions, often poorly tolerated
@@ -92,7 +118,7 @@ Non-invasive Ventilation
 :::
 
 ::: {.column width="50%"}
-High Flow Nasal Oxygen
+*High Flow Nasal Oxygen*
 
   - Provides high inspiratory flow in excess of peak inspiratory flow
   - Bulk flow reduces deadspace
@@ -105,25 +131,23 @@ High Flow Nasal Oxygen
 
 ## Background
 
-- Useful tools when used correctly.
+- Both are useful tools when used correctly.
 - Dynamic evidence landscape
 - Infective aetiologies and NIV?
-- RECOVERY-RS
-- FLORALI
-- HERNANDEZ
+- RECOVERY-RS: CPAP
+- FLORALI: HFNO
+- HERNANDEZ: HFNO
 
 ---
 
-![](trial.png)
-
----
-
-### Population
+## Population
 
 - Inclusion Criteria:
-  - Aged $\geq$18 y/o admitted to hospital (ED/ICU/Wards) with ARF
+  - Aged $\geq$ 18 y/o admitted to hospital (ED/ICU/Wards) with ARF
   - Spo2 <90% or PaO2 < 7.9 kPa RA
   - Signs of increased WOB or tachypnoea >25 bpm
+
+## Population
 
 - Exclusion Criteria:
   - Urgent need for endotracheal intubation
@@ -174,15 +198,14 @@ NIV rescue therapy was allowed for COPD and ACPO only.
 
 ## Outcome
 
-- Primary: Endotracheal intubation (or death) within 7 days of randomisation 
+- Primary: Endotracheal intubation (or death) within 7 days of randomisation
+  - Criteria for intubation standardised
 - Secondary:
-  - 28-day mortality 
-  - 90-day mortality 
+  - 28 + 90 day mortality 
   - Mechanical ventilation-free days at 28 days 
   - ICU-free days at 28 days
 - Tertiary:
-  - Hospital LOS within 90 days
-  - ICU LOS within 90 days
+  - ICU + Hospital LOS within 90 days
   - Vasopressor-free days within 28 days
   - The proportion of patients who received a do-not-intubate order within 7 days after randomisation
 
@@ -200,22 +223,32 @@ NIV rescue therapy was allowed for COPD and ACPO only.
 
 - **Non-inferiority** unblinded **bayesian** adaptive randomised controlled trial.
 
-- **5 distinct groups**.
-- "Adaptive"; **dynamic borrowing**.
+- 5 distinct groups.
+- "Adaptive"; dynamic **borrowing**.
 - 1:1 randomisation, permuted block size, allocation concealment.
 - Interim analyses: futility, non-inferiority, or superiority.
 - Composite outcome.
 
 ## Non-inferiority Trial
 
+:::{.fragment}
+
 - Most RCTs are "superiority" trials; is one treatment "better" than the other?
+
+:::
+:::{.fragment}
 
 - Is this always necessary?
 - Is one treatment less toxic or less expensive?
 - One can be "better" if clinical efficacy the same.
 
+:::
+:::{.fragment}
+
 - How do you *prove* that two treatments are the same?
 - Can anyone recognise the issue?
+
+:::
 
 ---
 
@@ -228,48 +261,128 @@ NIV rescue therapy was allowed for COPD and ACPO only.
 ---
 
 ![](./non-inferior-2.png)
+
 ---
 
 ![](./non-inferior-3.png)
+
+---
+
+## It's About precision
+
+- Without enough data, all comparisons are non-inferior
+
 ---
 
 ![](./non-inferior-overview.png)
 
-## Bayesian
+---
 
-Population: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock.
-Intervention: “Vaso-pushin”™; 5 patients
-Control: Standard care; 5 patients
-Outcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55. 80% power at 0.05 alpha threshold.
+## Let's go Bayesian
 
-## Non-inferiority Trial
+:::{.fragment}
 
-- The standard should be against the best practice standard? Does that hold true for ACPO
+- A simulated trial
+
+:::
+:::{.fragment}
+
+- **Population**: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock.
+- **Intervention**: “Vaso-pushin”™; 5 patients
+- **Control**: Standard care; 5 patients
+- **Outcome**: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55.
+
+:::
+
+## {background-image="./bayesian-study-1.png"}
+
+## {background-image="./bayesian-study-2.png"}
+
+## {background-image="./bayesian-study-3.png"}
+
+## {background-image="./bayesian-study-4.png"}
+
+## {background-image="./bayesian-study-5.png"}
+
+## {background-image="./bayesian-study-6.png"}
 
 ## Borrowing
 
+:::{.fragment}
+
 - Let's conduct a thought experiment
-- Consider a placebo RCT in CAP conducted in 2024 and another in 2025
-- How might information transfer
+
+:::
+:::{.fragment}
+
+- Consider an RCT in ARF conducted in 2024 and another in 2025.
+- How might information transfer from one to the other?
+
+:::
+:::{.fragment}
+
 - Could we include the controls of the 2024 study as "controls" in the 2025 study?
 - Why might we want to do this?
 
-“If the historical information differs substantially from the concurrent, Bayesian methods may borrow strength from a biased source, leading to an inflated Type I error rate, as well as the possibility of needing to run a longer, more expensive trial in order to overcome the incommensurate prior data” ([Lewis et al., 2019, p. 2](zotero://select/library/items/LFTKEEA4)) ([pdf](zotero://open-pdf/library/items/2NTHEE8X?page=2&annotation=9GUVNL7Z))
+:::
+
+## {background-image="./prior-meme.png"}
+
+## Borrowing
+
+- Bayesian approach naturally allows for borrowing
+- Caution must be exercised
+- Are the groups really similar? Are they "exchangeable"?
+- Increased precision
+- But... results will gravitate towards the group mean
+
+# Trial Results
+
+## {background-image="./flow.png" background-size=contain}
+
+## {background-image="./table-1.png" background-size=contain}
+
+## Stopping Criteria
+
+- April 2021 (1st interim); immunocompromised. **Futility**. n = 51
+- March 2023 (5th interum); COVID-19, **non-inferiority**. n = 895
+- Oct 2023 (6th interum); Non-immunocomprimise, **non-inferiority**. n = 501
+- Oct 2023 (6th interum); Cardiogenic pulmonary oedema, **non-inferiority**. n = 274
+- Final analyis: COPD. n = 79
+
+## {background-image="./primary.png" background-size=contain}
+
+## {background-image="./sensitivity.png" background-size=contain}
+
+# Conclusions
+
+## Conclusions
+
+- Met pre-specified criteria for non-inferiority for 4 of 5 cohorts
+- But... results not robust to strong modelling assumptions (borrowing)
+- Need further study: COPD, immunocompromised and ACPO
+
+## Stengths
+
+- Large, multi-centred RCT.
+- Bayesian; transparent.
+- Auhtors conclusions are well made.
+- Broad generalisability for the patients I see.
+- Others...
 
 ## Weaknessess
 
-- Late (but necessary) inclusion of COVID-19 to trial protocol
-- Modification of trial protocol to include death as composite outcome
-- Very small numbers for COPD
-- Over borrowing from dissimilar groups; failed sensitivity analysis
-- High cross over from HFNO to NIV in COPD
+- Late (but necessary) inclusion of COVID-19 to trial protocol.
+- Modification of trial protocol to include death as composite outcome.
+- Very small numbers for COPD ?selection bias.
+- Over/inappropriate borrowing from dissimilar groups; failed sensitivity analysis.
+- Criteria for futility too harsh.
+- High cross over from HFNO to NIV in COPD.
+- Others...
 
-## Take Aways
+## My Take Aways
 
-- Reasurring and has equipoise for ARF
-- I would still use NIV first line in COPD, and CPAP in ACPO
-
-## Other Links
-
-- Bottom Line.
-- Ed and Todd podcast.
+- You can't bayesian your way out of a bad idea.
+- Reasurring and has equipoise for ARF.
+- Has challenged my assumptions for ACPO.
+- I would still use NIV first line in COPD, and CPAP in ACPO.

@@ -4,53 +4,81 @@
     "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "Sepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nRENOVATE Trial\n\n\nOr… an introduction to Bayesian learning\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
+    "text": "RENOVATE Trial\n\n\nOr… an introduction to Bayesian learning\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Hospital Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nMay 23, 2025\n\n\nEd Palmer\n\n\n\n\n\n\n\n\n\n\n\n\nSepsis Hysteria: Part II\n\n\nA practical approach to getting it right\n\n\n\nsepsis\n\n\nintensive care medicine\n\n\n\nIntended audience: Foundation Doctors. Part II of series that conceptualises sepsis as a heterogenous and complex syndrome. I introduce the concepts of the microbial zoo, the early diagnosis paradox and the diagnostic void.\n\n\n\n\n\nJan 28, 2025\n\n\nEd Palmer\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#learning-objectives-housekeeping",
     "href": "presentations/2025-05-23-RENOVATE/index.html#learning-objectives-housekeeping",
     "title": "RENOVATE Trial",
     "section": "Learning Objectives / Housekeeping",
-    "text": "Learning Objectives / Housekeeping\n\n\nDevelop an intuition for Bayesian statistics.\nAppreciate the differences between Bayesian and frequentist reasoning.\nUnlearn a few bad statistical habits!*\n\n\n\n\nNo maths. No formulas. Accessible to all.\nInteractive. Feel free to interrupt.\nNo singling out, but volunteers welcome.\nSome statistical concepts are so ingrained, keep an open mind."
+    "text": "Learning Objectives / Housekeeping\n\n\nDevelop an intuition for Bayesian statistics.\nAppreciate the differences between Bayesian and frequentist reasoning.\nUnlearn a few bad statistical habits!\n\n\n\n\nNo maths. No formulas*. Accessible to all.\nInteractive. Feel free to interrupt.\nNo singling out, but volunteers welcome.\nSome statistical concepts are so ingrained, keep an open mind."
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions",
     "href": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions",
     "title": "RENOVATE Trial",
     "section": "Let’s Challenge Our Assumptions",
-    "text": "Let’s Challenge Our Assumptions\nA double blind multi-centre randomised controlled trial investigated the effect of a steroid combination in septic shock on 90-day mortality. 90-day mortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).\nWhat is the correct interpretation of this p value?\nA double blind multi-centre randomised controlled trial investigated the effect of steroids in septic shock on 90-day mortality. The relative risk of 90-day mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99). What is the correct interpretation of this 95% confidence interval?"
+    "text": "Let’s Challenge Our Assumptions\n\nAn RCT investigated the effect of steroids in septic shock on mortality.\nMortality was 43% in the treatment group and 49.1% in the control group (p = 0.03).\nWhat is the correct interpretation of this p value?"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#lets-challenge-our-assumptions-1",
+    "title": "RENOVATE Trial",
+    "section": "Let’s Challenge Our Assumptions",
+    "text": "Let’s Challenge Our Assumptions\n\nAn RCT investigated the effect of steroids in septic shock on mortality.\nThe relative risk of mortality in the treatment group was 0.88 (95% confidence interval, 0.78 to 0.99).\nWhat is the correct interpretation of this 95% confidence interval?"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#my-prediction",
     "href": "presentations/2025-05-23-RENOVATE/index.html#my-prediction",
     "title": "RENOVATE Trial",
     "section": "My Prediction",
-    "text": "My Prediction\n\nThese are hard questions.\nLikely that the correct answer will not be well identified.\nThese concepts come from “Frequentist statistics”.\nBayesian statistics is conceptualises probabilities differently."
+    "text": "My Prediction\n\n\nNo more will get the answers than would be expected by random chance.\n\n\n\n\nThese are hard questions, but foundational.\nThese concepts come from “Frequentist statistics”.\nBayesian statistics conceptualises probabilities differently.\nMost frequentist statistics are interpreted incorrectly; already Bayesian?\n\n\n\n\nIf you are confused. That’s ok."
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#setting",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#setting",
+    "title": "RENOVATE Trial",
+    "section": "Setting",
+    "text": "Setting\n\n33 Brazilian hospitals\nNov 2019 - Nov 2023\nHFNO vs NIV for ARF"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#background",
     "href": "presentations/2025-05-23-RENOVATE/index.html#background",
     "title": "RENOVATE Trial",
     "section": "Background",
-    "text": "Background\n\nNumber of different approaches to managing ARF\nPharmacological:\n\nbronchodilators\nantibiotics\n..\nOxygen\n\nNon-pharmacological\n\nPositioning\nSputum clearance\nMechanical support: IMV, NIV/CPAP, HFNO"
+    "text": "Background\n\nNumber of different approaches to managing ARF\nPharmacological:\n\nBronchodilators\nAntibiotics\n..\nOxygen\n\nNon-pharmacological\n\nPositioning\nSputum clearance\nMechanical support: IMV, NIV/CPAP, HFNO"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#background-1",
     "href": "presentations/2025-05-23-RENOVATE/index.html#background-1",
     "title": "RENOVATE Trial",
     "section": "Background",
-    "text": "Background\n\n\nNon-invasive Ventilation\n\nDelivers a pressure differential\nCan titrate O2 occording to needs\nAugments minute volume\nApplies PEEP\nLimits interventions, often poorly tolerated\nNeed breaks to eat etc.\n\n\nHigh Flow Nasal Oxygen\n\nProvides high inspiratory flow in excess of peak inspiratory flow\nBulk flow reduces deadspace\nComfortable; patients wear it for longer.\nHeated and humidified\n?PEEP; skeptical"
+    "text": "Background\n\n\nNon-invasive Ventilation\n\nDelivers a pressure differential\nCan titrate O2 occording to need\nAugments minute volume\nApplies PEEP\nLimits interventions, often poorly tolerated\nNeed breaks to eat etc.\n\n\nHigh Flow Nasal Oxygen\n\nProvides high inspiratory flow in excess of peak inspiratory flow\nBulk flow reduces deadspace\nComfortable; patients wear it for longer.\nHeated and humidified\n?PEEP; skeptical"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#background-2",
     "href": "presentations/2025-05-23-RENOVATE/index.html#background-2",
     "title": "RENOVATE Trial",
     "section": "Background",
-    "text": "Background\n\nUseful tools when used correctly.\nDynamic evidence landscape\nInfective aetiologies and NIV?\nRECOVERY-RS\nFLORALI\nHERNANDEZ"
+    "text": "Background\n\nBoth are useful tools when used correctly.\nDynamic evidence landscape\nInfective aetiologies and NIV?\nRECOVERY-RS: CPAP\nFLORALI: HFNO\nHERNANDEZ: HFNO"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#population",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#population",
+    "title": "RENOVATE Trial",
+    "section": "Population",
+    "text": "Population\n\nInclusion Criteria:\n\nAged \\(\\geq\\) 18 y/o admitted to hospital (ED/ICU/Wards) with ARF\nSpo2 &lt;90% or PaO2 &lt; 7.9 kPa RA\nSigns of increased WOB or tachypnoea &gt;25 bpm"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#population-1",
     "href": "presentations/2025-05-23-RENOVATE/index.html#population-1",
+    "title": "RENOVATE Trial",
+    "section": "Population",
+    "text": "Population\n\nExclusion Criteria:\n\nUrgent need for endotracheal intubation\nProlonged respiratory pauses\n\nCardiorespiratory arrest\n\nGCS \\(\\leq\\) 12\n\nHeart rate &lt; 50 bpm with decreased level of consciousness\nArterial blood pH &lt; 7.15\nHaemodynamic instability\nContraindication to NIV (vomiting, secretions, GCS &lt; 12, pneumothorax)\nDo not intubate order\nNIV use in ACPO prior to randomisation"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#population-2",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#population-2",
     "title": "RENOVATE Trial",
     "section": "Population",
     "text": "Population\n\nNonimmunocompromised ARF\nImmunocompromised ARF\nAcute Cardiogenic Pulmonary Oedema (ACPO)\nCOPD\nCOVID-19"
@@ -74,7 +102,7 @@
     "href": "presentations/2025-05-23-RENOVATE/index.html#outcome",
     "title": "RENOVATE Trial",
     "section": "Outcome",
-    "text": "Outcome\n\nPrimary: Endotracheal intubation (or death) within 7 days of randomisation\nSecondary:\n\n28-day mortality\n90-day mortality\nMechanical ventilation-free days at 28 days\nICU-free days at 28 days\n\nTertiary:\n\nHospital LOS within 90 days\nICU LOS within 90 days\nVasopressor-free days within 28 days\nThe proportion of patients who received a do-not-intubate order within 7 days after randomisation"
+    "text": "Outcome\n\nPrimary: Endotracheal intubation (or death) within 7 days of randomisation\n\nCriteria for intubation standardised\n\nSecondary:\n\n28 + 90 day mortality\nMechanical ventilation-free days at 28 days\nICU-free days at 28 days\n\nTertiary:\n\nICU + Hospital LOS within 90 days\nVasopressor-free days within 28 days\nThe proportion of patients who received a do-not-intubate order within 7 days after randomisation"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#key-methods",
@@ -95,49 +123,70 @@
     "href": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial",
     "title": "RENOVATE Trial",
     "section": "Non-inferiority Trial",
-    "text": "Non-inferiority Trial\n\nMost RCTs are “superiority” trials; is one treatment “better” than the other?\nIs this always necessary?\nIs one treatment less toxic or less expensive?\nOne can be “better” if clinical efficacy the same.\nHow do you prove that two treatments are the same?\nCan anyone recognise the issue?"
+    "text": "Non-inferiority Trial\n\n\nMost RCTs are “superiority” trials; is one treatment “better” than the other?\n\n\n\n\nIs this always necessary?\nIs one treatment less toxic or less expensive?\nOne can be “better” if clinical efficacy the same.\n\n\n\n\nHow do you prove that two treatments are the same?\nCan anyone recognise the issue?"
   },
   {
-    "objectID": "presentations/2025-05-23-RENOVATE/index.html#bayesian",
-    "href": "presentations/2025-05-23-RENOVATE/index.html#bayesian",
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#its-about-precision",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#its-about-precision",
     "title": "RENOVATE Trial",
-    "section": "Bayesian",
-    "text": "Bayesian\nPopulation: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock. Intervention: “Vaso-pushin”™; 5 patients Control: Standard care; 5 patients Outcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55. 80% power at 0.05 alpha threshold."
+    "section": "It’s About precision",
+    "text": "It’s About precision\n\nWithout enough data, all comparisons are non-inferior"
   },
   {
-    "objectID": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial-1",
-    "href": "presentations/2025-05-23-RENOVATE/index.html#non-inferiority-trial-1",
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#lets-go-bayesian",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#lets-go-bayesian",
     "title": "RENOVATE Trial",
-    "section": "Non-inferiority Trial",
-    "text": "Non-inferiority Trial\n\nThe standard should be against the best practice standard? Does that hold true for ACPO"
+    "section": "Let’s go Bayesian",
+    "text": "Let’s go Bayesian\n\n\nA simulated trial\n\n\n\n\nPopulation: 10 Adults from the general population admitted to the ICU with a diagnosis of septic shock.\nIntervention: “Vaso-pushin”™; 5 patients\nControl: Standard care; 5 patients\nOutcome: Increase in MAP. MCID increase of 10 mmHg assuming baseline MAP of 55."
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#borrowing",
     "href": "presentations/2025-05-23-RENOVATE/index.html#borrowing",
     "title": "RENOVATE Trial",
     "section": "Borrowing",
-    "text": "Borrowing\n\nLet’s conduct a thought experiment\nConsider a placebo RCT in CAP conducted in 2024 and another in 2025\nHow might information transfer\nCould we include the controls of the 2024 study as “controls” in the 2025 study?\nWhy might we want to do this?\n\n“If the historical information differs substantially from the concurrent, Bayesian methods may borrow strength from a biased source, leading to an inflated Type I error rate, as well as the possibility of needing to run a longer, more expensive trial in order to overcome the incommensurate prior data” (Lewis et al., 2019, p. 2) (pdf)"
+    "text": "Borrowing\n\n\nLet’s conduct a thought experiment\n\n\n\n\nConsider an RCT in ARF conducted in 2024 and another in 2025.\nHow might information transfer from one to the other?\n\n\n\n\nCould we include the controls of the 2024 study as “controls” in the 2025 study?\nWhy might we want to do this?"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#borrowing-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#borrowing-1",
+    "title": "RENOVATE Trial",
+    "section": "Borrowing",
+    "text": "Borrowing\n\nBayesian approach naturally allows for borrowing\nCaution must be exercised\nAre the groups really similar? Are they “exchangeable”?\nIncreased precision\nBut… results will gravitate towards the group mean"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#stopping-criteria",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#stopping-criteria",
+    "title": "RENOVATE Trial",
+    "section": "Stopping Criteria",
+    "text": "Stopping Criteria\n\nApril 2021 (1st interim); immunocompromised. Futility. n = 51\nMarch 2023 (5th interum); COVID-19, non-inferiority. n = 895\nOct 2023 (6th interum); Non-immunocomprimise, non-inferiority. n = 501\nOct 2023 (6th interum); Cardiogenic pulmonary oedema, non-inferiority. n = 274\nFinal analyis: COPD. n = 79"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#conclusions-1",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#conclusions-1",
+    "title": "RENOVATE Trial",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nMet pre-specified criteria for non-inferiority for 4 of 5 cohorts\nBut… results not robust to strong modelling assumptions (borrowing)\nNeed further study: COPD, immunocompromised and ACPO"
+  },
+  {
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#stengths",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#stengths",
+    "title": "RENOVATE Trial",
+    "section": "Stengths",
+    "text": "Stengths\n\nLarge, multi-centred RCT.\nBayesian; transparent.\nAuhtors conclusions are well made.\nBroad generalisability for the patients I see.\nOthers…"
   },
   {
     "objectID": "presentations/2025-05-23-RENOVATE/index.html#weaknessess",
     "href": "presentations/2025-05-23-RENOVATE/index.html#weaknessess",
     "title": "RENOVATE Trial",
     "section": "Weaknessess",
-    "text": "Weaknessess\n\nLate (but necessary) inclusion of COVID-19 to trial protocol\nModification of trial protocol to include death as composite outcome\nVery small numbers for COPD\nOver borrowing from dissimilar groups; failed sensitivity analysis\nHigh cross over from HFNO to NIV in COPD"
+    "text": "Weaknessess\n\nLate (but necessary) inclusion of COVID-19 to trial protocol.\nModification of trial protocol to include death as composite outcome.\nVery small numbers for COPD ?selection bias.\nOver/inappropriate borrowing from dissimilar groups; failed sensitivity analysis.\nCriteria for futility too harsh.\nHigh cross over from HFNO to NIV in COPD.\nOthers…"
   },
   {
-    "objectID": "presentations/2025-05-23-RENOVATE/index.html#take-aways",
-    "href": "presentations/2025-05-23-RENOVATE/index.html#take-aways",
+    "objectID": "presentations/2025-05-23-RENOVATE/index.html#my-take-aways",
+    "href": "presentations/2025-05-23-RENOVATE/index.html#my-take-aways",
     "title": "RENOVATE Trial",
-    "section": "Take Aways",
-    "text": "Take Aways\n\nReasurring and has equipoise for ARF\nI would still use NIV first line in COPD, and CPAP in ACPO"
-  },
-  {
-    "objectID": "presentations/2025-05-23-RENOVATE/index.html#other-links",
-    "href": "presentations/2025-05-23-RENOVATE/index.html#other-links",
-    "title": "RENOVATE Trial",
-    "section": "Other Links",
-    "text": "Other Links\n\nBottom Line.\nEd and Todd podcast."
+    "section": "My Take Aways",
+    "text": "My Take Aways\n\nYou can’t bayesian your way out of a bad idea.\nReasurring and has equipoise for ARF.\nHas challenged my assumptions for ACPO.\nI would still use NIV first line in COPD, and CPAP in ACPO."
   },
   {
     "objectID": "index.html",
